@@ -48,6 +48,9 @@ Table of Contents
       - IsNullOrEmpty / IsNullOrWhiteSpace
       - IsLowerCase / IsUpperCase
       - ToLowerCase / ToLowerCase
+      - Contains / IndexOf
+      - Substring / Slice
+      - Split / Join
       - Format
       - Modifiers
       -   Verbatim or Multi-Line (@ or """ or \)
@@ -75,6 +78,7 @@ Table of Contents
     - Short-Circuiting Pipe or Processing (|, ||, &, &&, |>)
     - Lambda or Arrow or Anonymous Functions
     - Data Flow Pipelines (or Map-Reduce or Pipe-and-Filter or Streams)
+    - Regular Expressions
   - Control Structure II
     - Try-Catch-Finally
     - Using (or Try-With-Resources)
