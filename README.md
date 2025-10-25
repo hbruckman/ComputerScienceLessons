@@ -34,9 +34,6 @@ Table of Contents
     - Primitive (or Built-In)
     - Wrappers
     - Constants (or Final or Read-Only)
-  - Input/Output I
-    - Console I/O
-    - String Parsing
   - Operators I
     - Unary (+, -, ++, --)
     - Arithmetic (+, -, *, /, %, ^, **)
@@ -70,6 +67,9 @@ Table of Contents
     - Invocation or Call
     - Arguments
     - Return Type
+  - Input/Output I
+    - Console I/O
+    - String Parsing
   - Documentation I
     - Line or Inline Comments (// or #)
     - Block Comments (/* ... */)
