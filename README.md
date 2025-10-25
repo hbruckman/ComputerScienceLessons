@@ -33,6 +33,7 @@ Table of Contents
     - Constants (or Read-Only)
   - Input/Output I
     - Console I/O
+    - String Parsing
   - Operators I
     - Unary (+, -, ++, --)
     - Arithmetic (+, -, *, /, %, ^, **)
