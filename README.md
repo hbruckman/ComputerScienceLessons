@@ -7,16 +7,17 @@ Table of Contents
   - Importance, Use, and Value
   - Computer Scientist Profile
   - Data, Hardware, and Sofware
-  - Databases
+  - Databases and Information Systems
   - Networks, Internet, and World Wide Web
   - Computer/Network/System Architecture
+  - Operating Systems and Virtualization
   - Computer/Network/System Security
-  - Computer Graphics
-  - Human-Computer Interaction and UI/UX
+  - Computer Graphics and Visualization
+  - Human-Computer Interaction (HCI) and UI/UX
   - Software Engineering
   - Artificial Intelligence
-  - Societal, Ethical, Legal, Professional Concerns and Considerations
-  - Problem Solving
+  - Societal, Ethical, Legal, Professional Issues, Concerns, and Considerations
+  - Problem Solving and Algorithmic Thinking
 - Programming I
   - Setting Up and Getting Started
     - Set Up Windows OS
@@ -27,23 +28,21 @@ Table of Contents
     - Set Up Python in VS Code
     - Set Up Node.JS in VS Code
   - Data Types
-    - Primitive or Built-In
+    - Primitive (or Built-In)
     - Wrappers
-  - I/O I
-    - Console
-    - Keyboard
+    - Constants (or Read-Only)
+  - Input/Output I
+    - Console I/O
   - Operators I
     - Arithmetic (+, -, *, /, %, ^, **)
     - Assignment (=, +=, -=, *=, /=)
     - Relational (==, !=, <, <=, >, >=)
-    - Boolean or Logic (!, ||, &&)
+    - Logical or Boolean (!, ||, &&)
     - Ternary (? :)
   - Expressions I
-    - Truncation
-    - Promotion
-    - Casting
-    - Character and String Utils
-      - Concatenation
+    - Truncation, Promotion, Casting
+    - String and Character Utilities
+      - Concatenation and Formatting
       - IsDigit / IsLetter
       - IsNullOrEmpty / IsNullOrWhiteSpace
       - IsLowerCase / IsUpperCase
@@ -51,55 +50,53 @@ Table of Contents
       - Contains / IndexOf
       - Substring / Slice
       - Split / Join
-      - Format
       - Modifiers
       -   Verbatim or Multi-Line (@ or """ or \)
       -   Interpolated ($ or ` or f)
   - Control Structures I
     - If-Else-Then
     - Switch
-    - While Loops
-    - Do-While Loops
-    - For Loops
-    - For-Each Loops
+    - Loops (While, Do-While, For, For-Each)
   - Data Structures I
     - Arrays
+  - Functions I
+    - Invocation or Call
+    - Return Type
   - Documentation I
-    - Line Comments (// or #)
+    - Line or Inline Comments (// or #)
     - Block Comments (/* ... */)
 - Programming II
-  - Functions
+  - Functions I
+    - Parameters (By Copy, By Reference, In, Out, Ref)
+    - Overloading and Default Values ***
+    - Higher-Order Functions
   - Operators II
     - Null-Coalescing (??)
-    - Nullable Reference (?)
-    - Null-Forgiving Operator (!)
+    - Nullable (?)
+    - Null-Forgiving (!)
   - Expressions II
-    - Truthy and Falsy
+    - Truthy / Falsy
     - Short-Circuiting Pipe or Processing (|, ||, &, &&, |>)
     - Lambda or Arrow or Anonymous Functions
     - Data Flow Pipelines (or Map-Reduce or Pipe-and-Filter or Streams)
     - Regular Expressions
   - Control Structure II
     - Try-Catch-Finally
-    - Using (or Try-With-Resources)
-    - Asynchronous (or Promises)
+    - Resource Management (or Using or Try-With-Resources)
+    - Asynchronous Control (or Promises)
       - Async/Await
       - Then-Catch-Finally
   - Data Structures II
     - Multi-Dimensional Arrays (or Matrices)
     - Enums
-    - Structs
+    - Structs, Records, and Tuples
     - Classes
     - Collections
-      - Array Lists
-      - Linked List
-      - Stacks
-      - Queues
-      - Hash Tables (or Hash Maps or Dictionaries or Key-Value Pairs)
-      - Hash Sets
-  - I/O II
-    - File
-    - Network
+      - Abstract (List, Stacks, Queues, Dequeues, Maps, Sets)
+      - Concrete (Array/Linked List, Hash Tables/Maps/Sets or Dictionaries or Key-Value Pairs)
+  - Input/Output II
+    - File I/O
+    - Network I/O
   - Documentation II
     - Doc Comments (/** ... */)
     - Annotations (@)
