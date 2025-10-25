@@ -33,7 +33,7 @@ Table of Contents
   - Data Types
     - Primitive (or Built-In)
     - Wrappers
-    - Constants (or Read-Only)
+    - Constants (or Final or Read-Only)
   - Input/Output I
     - Console I/O
     - String Parsing
@@ -68,12 +68,14 @@ Table of Contents
     - Arrays
   - Functions I
     - Invocation or Call
+    - Arguments
     - Return Type
   - Documentation I
     - Line or Inline Comments (// or #)
     - Block Comments (/* ... */)
 - Programming II
   - Functions II
+    - Definition or Implementation (Custom)
     - Parameters (By Copy, By Reference, In, Out, Ref)
   - Operators II
     - Null-Coalescing (??)
@@ -100,8 +102,13 @@ Table of Contents
     - Encapsulation, Inheritance, Abstraction, Polymorphism
     - Constructors, Destructors, Getters, Setters, Properties
     - Design Patterns (Factory, Singleton, Observer, etc.)
+  - Data Types III
+    - Access Modifiers (default, public, private, protected, sealed, internal, readonly, static, volatile)
+    - Non-Access Modifiers (abstract, virtual, override, readonly, static, volatile, transient, synchronized, native)
   - Functions III
-    - Overloading and Default Values ***
+    - (Signature) Overloading and Default Values
+    - Invocations with Named Arguments
+    - (Definition) Overriding
     - Higher-Order Functions
   - Operators III
     - Bit-Wise (~, |, &, ^, <<, >>, >>>, |=, &=, ^=)
@@ -117,8 +124,7 @@ Table of Contents
       - Async/Await
       - Then-Catch-Finally
   - Data Structures III
-    - Classes
-    - Interfaces
+    - Classes, Abstract Classes, and Interfaces
     - Abstract Collections (List, Stacks, Queues, Dequeues, Maps, Sets)
     - Memory Management and Garbage Collection (finalize, delete)
   - Input/Output III
