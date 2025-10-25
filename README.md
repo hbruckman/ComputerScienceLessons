@@ -126,7 +126,7 @@ Table of Contents
   - Data Structures III
     - Classes, Abstract Classes, and Interfaces
     - Abstract Collections (List, Stacks, Queues, Dequeues, Maps, Sets)
-    - Memory Management and Garbage Collection (finalize, delete)
+    - Memory Management and Garbage Collection (new/finalize/delete)
   - Input/Output III
     - Network I/O
   - Documentation III
