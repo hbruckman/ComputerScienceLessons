@@ -27,6 +27,9 @@ Table of Contents
     - Set Up Java in VS Code
     - Set Up Python in VS Code
     - Set Up Node.JS in VS Code
+    - Creating New Project
+      - Understanding IDE UI/UX (Shortcuts and Feedback)
+      - Run and Debug
   - Data Types
     - Primitive (or Built-In)
     - Wrappers
@@ -55,8 +58,8 @@ Table of Contents
       - Substring / Slice
       - Split / Join
       - Modifiers
-      -   Verbatim or Multi-Line (@ or """ or \)
-      -   Interpolated ($ or ` or f)
+        - Verbatim or Multi-Line (@ or """ or \)
+        - Interpolated ($ or ` or f)
   - Control Structures I
     - If-Else-Then
     - Switch
@@ -76,7 +79,7 @@ Table of Contents
     - Null-Coalescing (??)
     - Nullable (?)
     - Null-Forgiving (!)
-    - Lambda (=> or ->)
+    - Lambda or Arrow (=> or ->)
   - Expressions II
     - Lambda or Arrow or Anonymous Functions
     - Data Flow Pipelines (or Map-Reduce or Pipe-and-Filter or Streams)
@@ -93,6 +96,10 @@ Table of Contents
   - Documentation II
     - Doc Comments (/** ... */)
 - Programming III
+  - Object-Oriented Programming (OOP)
+    - Encapsulation, Inheritance, Abstraction, Polymorphism
+    - Constructors, Destructors, Getters, Setters, Properties
+    - Design Patterns (Factory, Singleton, Observer, etc.)
   - Functions III
     - Overloading and Default Values ***
     - Higher-Order Functions
@@ -100,8 +107,10 @@ Table of Contents
     - Bit-Wise (~, |, &, ^, <<, >>, >>>, |=, &=, ^=)
     - Overloading
   - Expressions III
+    - Generic and Templates
     - Truthy / Falsy
     - Short-Circuiting Pipe or Processing (|, ||, &, &&, |>)
+    - Recursion
     - Regular Expressions
   - Control Structure III
     - Asynchronous Control (or Promises)
@@ -111,6 +120,7 @@ Table of Contents
     - Classes
     - Interfaces
     - Abstract Collections (List, Stacks, Queues, Dequeues, Maps, Sets)
+    - Memory Management and Garbage Collection (finalize, delete)
   - Input/Output III
     - Network I/O
   - Documentation III
