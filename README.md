@@ -115,6 +115,7 @@ Table of Contents
     - Non-Access Modifiers (abstract, virtual, override, volatile, transient, synchronized, native)
     - Type Systems: Static vs. Dynamic, Strong vs. Weak
   - Operators III
+    - Type Checks and Casting (instanceof, is, is not, as)
     - Bit-Wise (~, |, &, ^, <<, >>, >>>, |=, &=, ^=)
     - Overloading
   - Expressions III
