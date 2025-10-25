@@ -45,6 +45,7 @@ Table of Contents
     - Logical or Boolean (!, ||, &&)
     - Ternary (? :)
   - Expressions I
+    - Declarations and Initializations
     - Operator Precedence and Parenthesis
     - Truncation, Promotion, Casting
     - Overflow, Division By Zero
@@ -57,9 +58,8 @@ Table of Contents
       - Contains / IndexOf
       - Substring / Slice
       - Split / Join
-      - Modifiers
-        - Verbatim or Multi-Line (@ or """ or \)
-        - Interpolated ($ or ` or f)
+      - Verbatim or Multi-Line (@ or """ or \)
+      - Interpolated ($ or ` or f)
   - Control Structures I
     - If-Else-Then
     - Switch
@@ -82,7 +82,7 @@ Table of Contents
   - Expressions II
     - Lambda or Arrow or Anonymous Functions (=> or ->)
     - Data Flow Pipelines (or Map-Reduce or Pipe-and-Filter or Streams)
-  - Control Structure II
+  - Control Structures II
     - Exception Handling (Try-Catch-Finally)
     - Resource Management (or Using or Try-With-Resources)
   - Data Structures II
@@ -90,12 +90,12 @@ Table of Contents
     - Enums
     - Structs, Records, and Tuples
     - Concrete Collections (Array/Linked List, Hash Tables/Maps/Sets or Dictionaries or Key-Value Pairs)
-  - Input/Output II
-    - File I/O
   - Functions II
     - Definition or Implementation (Custom)
     - Parameters (By Copy, By Reference, In, Out, Ref)
     - Variable Scope (or Hiding, Masking)
+  - Input/Output II
+    - File I/O
   - Documentation II
     - Doc Comments (/** ... */)
 - Programming III
@@ -115,7 +115,7 @@ Table of Contents
     - Short-Circuiting Pipe or Processing (|, ||, &, &&, |>)
     - Recursion
     - Regular Expressions
-  - Control Structure III
+  - Control Structures III
     - Asynchronous Control (or Promises)
       - Async/Await
       - Then-Catch-Finally
@@ -123,13 +123,13 @@ Table of Contents
     - Classes, Abstract Classes, and Interfaces
     - Abstract Collections (List, Stacks, Queues, Dequeues, Maps, Sets)
     - Memory Management and Garbage Collection (new/finalize/delete)
-  - Input/Output III
-    - Network I/O
   - Functions III
     - (Signature) Overloading and Default Values
     - Invocations with Named Arguments
     - (Definition) Overriding
     - Higher-Order Functions and Closures
+  - Input/Output III
+    - Network I/O
   - Documentation III
     - Annotations and Metadata (@)
     - Git/GitHub Commit Messages or History or Log
