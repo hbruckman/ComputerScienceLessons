@@ -24,8 +24,8 @@ Table of Contents
     - Set Up Git/GitHub
     - Set Up C# and .Net in VS Code
     - Set Up Java in VS Code
-    - Set Up Node.JS in VS Code
     - Set Up Python in VS Code
+    - Set Up Node.JS in VS Code
   - Data Types
     - Primitive or Built-In
     - Wrappers
@@ -42,6 +42,16 @@ Table of Contents
     - Truncation
     - Promotion
     - Casting
+    - Character and String Utils
+      - Concatenation
+      - IsDigit / IsLetter
+      - IsNullOrEmpty / IsNullOrWhiteSpace
+      - IsLowerCase / IsUpperCase
+      - ToLowerCase / ToLowerCase
+      - Format
+      - Modifiers
+      -   Verbatim or Multi-Line (@ or """ or \)
+      -   Interpolated ($ or ` or f)
   - Control Structures I
     - If-Else-Then
     - Switch
@@ -62,6 +72,7 @@ Table of Contents
     - Null-Forgiving Operator (!)
   - Expressions II
     - Truthy and Falsy
+    - Short-Circuiting Pipe or Processing (|, ||, &, &&, |>)
     - Lambda or Arrow or Anonymous Functions
     - Data Flow Pipelines (or Map-Reduce or Pipe-and-Filter or Streams)
   - Control Structure II
