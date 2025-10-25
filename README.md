@@ -4,9 +4,9 @@ A comprehensive library of computer science lessons - including basic and advanc
 Table of Contents
 
 - Introduction to Computer Science
-  - Importance, Use, and Value
+  - Importance, Use, and Value of Computing and Informatics
   - Computer Scientist Profile
-  - Data, Hardware, and Sofware
+  - Computer Components and the Von Neumann Model (Data, Hardware, and Sofware)
   - Databases and Information Systems
   - Networks, Internet, and World Wide Web
   - Computer/Network/System Architecture
@@ -27,13 +27,14 @@ Table of Contents
     - Set Up Java in VS Code
     - Set Up Python in VS Code
     - Set Up Node.JS in VS Code
-    - Creating New Project
-      - Understanding IDE UI/UX (Shortcuts and Feedback)
-      - Run and Debug
+    - Writing and Running (Debugging) Your First Program
+    - Understanding Source Code (Indentation, Case-Sensitivity)
+    - Understanding Compilation (Building, Tasks, Scripts)
+    - Understanding Execution (Breakpoints, Console Outputs)
+    - Understanding IDE UI/UX (Shortcuts and Feedback)
   - Data Types I
-    - Primitive (or Built-In)
-    - Wrappers
-    - Constants (or Final or Read-Only)
+    - Primitive (Built-In) and Wrappers (Object-Based)
+    - Variables and Constants (or Final or Read-Only)
   - Operators I
     - Unary (+, -, ++, --)
     - Arithmetic (+, -, *, /, %, ^, **)
@@ -42,9 +43,9 @@ Table of Contents
     - Logical or Boolean (!, ||, &&)
     - Ternary (? :)
   - Expressions I
-    - Declarations and Initializations
+    - Declarations and Initializations (Naming Conventions)
     - Operator Precedence and Parenthesis
-    - Truncation, Promotion, Casting
+    - Implicit and Explicit Convertion (Truncation, Promotion, Casting, Parsing)
     - Overflow, Division By Zero
     - String and Character Utilities
       - Concatenation and Formatting
@@ -58,7 +59,7 @@ Table of Contents
       - Verbatim or Multi-Line (@ or """ or \)
       - Interpolated ($ or ` or f)
   - Control Structures I
-    - If-Else-Then
+    - If, Else-If, and Else
     - Switch
     - Loops (While, Do-While, For, For-Each)
   - Data Structures I
@@ -83,6 +84,7 @@ Table of Contents
     - Lambda or Arrow or Anonymous Functions (=> or ->)
     - Data Flow Pipelines (or Map-Reduce or Pipe-and-Filter or Streams)
   - Control Structures II
+    - Nested Loops and Loop Control (break, continue)
     - Exception Handling (Try-Catch-Finally)
     - Resource Management (or Using or Try-With-Resources)
   - Data Structures II
@@ -93,7 +95,7 @@ Table of Contents
   - Functions II
     - Definition or Implementation (Custom)
     - Parameters (By Copy, By Reference, In, Out, Ref)
-    - Variable Scope (or Hiding, Masking)
+    - Variable Scope (or Lifetime) and Hiding (or Masking)
   - Input/Output II
     - File I/O
   - Documentation II
