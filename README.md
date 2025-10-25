@@ -6,7 +6,7 @@ Table of Contents
 - Introduction to Computer Science
   - Importance, Use, and Value of Computing and Informatics
   - Computer Scientist Profile
-  - Computer Components and the Von Neumann Model (Data, Hardware, and Sofware)
+  - Computer Components and the Von Neumann Model (Data, Hardware, and Software)
   - Databases and Information Systems
   - Networks, Internet, and World Wide Web
   - Computer/Network/System Architecture
@@ -28,13 +28,13 @@ Table of Contents
     - Set Up Python in VS Code
     - Set Up Node.JS in VS Code
     - Writing and Running (Debugging) Your First Program
-    - Understanding Source Code (Indentation, Case-Sensitivity)
-    - Understanding Compilation (Building, Tasks, Scripts)
-    - Understanding Execution (Breakpoints, Console Outputs)
+    - Understanding Source Code (Syntax, Case-Sensitivity)
+    - Understanding Compilation (Building, Tasks, Scripts, Compile-Time Errors)
+    - Understanding Execution (Breakpoints, Console Outputs, Runtime Errors)
     - Understanding IDE UI/UX (Shortcuts and Feedback)
   - Data Types I
     - Primitive (Built-In) and Wrappers (Object-Based)
-    - Variables and Constants (or Final or Read-Only)
+    - Variables and Constants (const/final/readonly)
   - Operators I
     - Unary (+, -, ++, --)
     - Arithmetic (+, -, *, /, %, ^, **)
@@ -56,14 +56,15 @@ Table of Contents
       - Contains / IndexOf
       - Substring / Slice
       - Split / Join
-      - Verbatim or Multi-Line (@ or """ or \)
-      - Interpolated ($ or ` or f)
+      - Verbatim or Multi-Line (@, """, \)
+      - Interpolated ($, `, f)
   - Control Structures I
     - If, Else-If, and Else
     - Switch
     - Loops (While, Do-While, For, For-Each)
   - Data Structures I
     - Arrays
+    - Linear Search
   - Functions I
     - Invocation or Call
     - Arguments
@@ -71,10 +72,13 @@ Table of Contents
   - Input/Output I
     - Console I/O
     - String Parsing
+    - Input Validation
   - Documentation I
     - Line or Inline Comments (// or #)
     - Block Comments (/* ... */)
+    - Consistent Formatting (Indentation, Long-Lines Breaking)
 - Programming II
+  - Modularization and Code Reuse
   - Data Types II
     - Nullable (?)
   - Operators II
@@ -82,24 +86,25 @@ Table of Contents
     - Null-Forgiving (!)
   - Expressions II
     - Lambda or Arrow or Anonymous Functions (=> or ->)
-    - Data Flow Pipelines (or Map-Reduce or Pipe-and-Filter or Streams)
+    - Data Flow Pipelines (Map-Reduce, Pipe-and-Filter, Streams)
   - Control Structures II
-    - Nested Loops and Loop Control (break, continue)
+    - Nested Loops and Loop Control (break, continue, labels, return)
     - Exception Handling (Try-Catch-Finally)
-    - Resource Management (or Using or Try-With-Resources)
+    - Resource Management (Using, Try-With-Resources)
   - Data Structures II
-    - Multi-Dimensional Arrays (or Matrices)
+    - Multi-Dimensional Arrays (Matrices)
     - Enums
     - Structs, Records, and Tuples
-    - Concrete Collections (Array/Linked List, Hash Tables/Maps/Sets or Dictionaries or Key-Value Pairs)
+    - Concrete Collections (Array/Linked List, Hash Tables/Maps/Sets, Dictionaries, Key-Value Pairs)
   - Functions II
-    - Definition or Implementation (Custom)
-    - Parameters (By Copy, By Reference, In, Out, Ref)
-    - Variable Scope (or Lifetime) and Hiding (or Masking)
+    - Custom Definitions
+    - Parameters (By Copy, By Reference)
+    - Variable Scope/Lifetime and Hiding/Masking/Shadowing
   - Input/Output II
     - File I/O
   - Documentation II
     - Doc Comments (/** ... */)
+    - Code Readability and Style Guides
 - Programming III
   - Object-Oriented Programming (OOP)
     - Encapsulation, Inheritance, Abstraction, Polymorphism
@@ -108,6 +113,7 @@ Table of Contents
   - Data Types III
     - Access Modifiers (public, private, protected, default, internal, const, final, readonly, sealed, static)
     - Non-Access Modifiers (abstract, virtual, override, volatile, transient, synchronized, native)
+    - Type Systems: Static vs. Dynamic, Strong vs. Weak
   - Operators III
     - Bit-Wise (~, |, &, ^, <<, >>, >>>, |=, &=, ^=)
     - Overloading
@@ -118,13 +124,13 @@ Table of Contents
     - Recursion
     - Regular Expressions
   - Control Structures III
-    - Asynchronous Control (or Promises)
+    - Asynchronous Control (Promises)
       - Async/Await
       - Then-Catch-Finally
   - Data Structures III
     - Classes, Abstract Classes, and Interfaces
-    - Abstract Collections (List, Stacks, Queues, Dequeues, Maps, Sets)
-    - Memory Management and Garbage Collection (new/finalize/delete)
+    - Abstract Collections (List, Stacks, Queues, Deques, Maps, Sets)
+    - Memory Management and Garbage Collection (new, finalize, delete)
   - Functions III
     - (Signature) Overloading and Default Values
     - Invocations with Named Arguments
@@ -134,4 +140,4 @@ Table of Contents
     - Network I/O
   - Documentation III
     - Annotations and Metadata (@)
-    - Git/GitHub Commit Messages or History or Log
+    - Version Tracking (Git/GitHub Commit Messages/History/Log)
