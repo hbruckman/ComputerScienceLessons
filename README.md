@@ -43,7 +43,7 @@ Table of Contents
     - Logical or Boolean (!, ||, &&)
     - Ternary (? :)
   - Expressions I
-    - Declarations and Initializations (Naming Conventions)
+    - Declarations and Initializations (Naming Hard Rules and Conventions)
     - Operator Precedence and Parenthesis
     - Implicit and Explicit Convertion (Truncation, Promotion, Casting, Parsing)
     - Overflow, Division By Zero
