@@ -34,13 +34,16 @@ Table of Contents
   - Input/Output I
     - Console I/O
   - Operators I
+    - Unary (+, -, ++, --)
     - Arithmetic (+, -, *, /, %, ^, **)
     - Assignment (=, +=, -=, *=, /=)
     - Relational (==, !=, <, <=, >, >=)
     - Logical or Boolean (!, ||, &&)
     - Ternary (? :)
   - Expressions I
+    - Operator Precedence and Parenthesis
     - Truncation, Promotion, Casting
+    - Overflow, Division By Zero
     - String and Character Utilities
       - Concatenation and Formatting
       - IsDigit / IsLetter
@@ -66,38 +69,49 @@ Table of Contents
     - Line or Inline Comments (// or #)
     - Block Comments (/* ... */)
 - Programming II
-  - Functions I
+  - Functions II
     - Parameters (By Copy, By Reference, In, Out, Ref)
-    - Overloading and Default Values ***
-    - Higher-Order Functions
   - Operators II
     - Null-Coalescing (??)
     - Nullable (?)
     - Null-Forgiving (!)
+    - Lambda (=> or ->)
   - Expressions II
-    - Truthy / Falsy
-    - Short-Circuiting Pipe or Processing (|, ||, &, &&, |>)
     - Lambda or Arrow or Anonymous Functions
     - Data Flow Pipelines (or Map-Reduce or Pipe-and-Filter or Streams)
-    - Regular Expressions
   - Control Structure II
-    - Try-Catch-Finally
+    - Exception Handling (Try-Catch-Finally)
     - Resource Management (or Using or Try-With-Resources)
-    - Asynchronous Control (or Promises)
-      - Async/Await
-      - Then-Catch-Finally
   - Data Structures II
     - Multi-Dimensional Arrays (or Matrices)
     - Enums
     - Structs, Records, and Tuples
-    - Classes
-    - Collections
-      - Abstract (List, Stacks, Queues, Dequeues, Maps, Sets)
-      - Concrete (Array/Linked List, Hash Tables/Maps/Sets or Dictionaries or Key-Value Pairs)
+    - Concrete Collections (Array/Linked List, Hash Tables/Maps/Sets or Dictionaries or Key-Value Pairs)
   - Input/Output II
     - File I/O
-    - Network I/O
   - Documentation II
     - Doc Comments (/** ... */)
-    - Annotations (@)
+- Programming III
+  - Functions III
+    - Overloading and Default Values ***
+    - Higher-Order Functions
+  - Operators III
+    - Bit-Wise (~, |, &, ^, <<, >>, >>>, |=, &=, ^=)
+    - Overloading
+  - Expressions III
+    - Truthy / Falsy
+    - Short-Circuiting Pipe or Processing (|, ||, &, &&, |>)
+    - Regular Expressions
+  - Control Structure III
+    - Asynchronous Control (or Promises)
+      - Async/Await
+      - Then-Catch-Finally
+  - Data Structures III
+    - Classes
+    - Interfaces
+    - Abstract Collections (List, Stacks, Queues, Dequeues, Maps, Sets)
+  - Input/Output III
+    - Network I/O
+  - Documentation III
+    - Annotations and Metadata (@)
     - Git/GitHub Commit Messages or History or Log
