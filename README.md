@@ -30,7 +30,7 @@ Table of Contents
     - Creating New Project
       - Understanding IDE UI/UX (Shortcuts and Feedback)
       - Run and Debug
-  - Data Types
+  - Data Types I
     - Primitive (or Built-In)
     - Wrappers
     - Constants (or Final or Read-Only)
@@ -74,16 +74,13 @@ Table of Contents
     - Line or Inline Comments (// or #)
     - Block Comments (/* ... */)
 - Programming II
-  - Functions II
-    - Definition or Implementation (Custom)
-    - Parameters (By Copy, By Reference, In, Out, Ref)
+  - Data Types II
+    - Nullable (?)
   - Operators II
     - Null-Coalescing (??)
-    - Nullable (?)
     - Null-Forgiving (!)
-    - Lambda or Arrow (=> or ->)
   - Expressions II
-    - Lambda or Arrow or Anonymous Functions
+    - Lambda or Arrow or Anonymous Functions (=> or ->)
     - Data Flow Pipelines (or Map-Reduce or Pipe-and-Filter or Streams)
   - Control Structure II
     - Exception Handling (Try-Catch-Finally)
@@ -95,6 +92,10 @@ Table of Contents
     - Concrete Collections (Array/Linked List, Hash Tables/Maps/Sets or Dictionaries or Key-Value Pairs)
   - Input/Output II
     - File I/O
+  - Functions II
+    - Definition or Implementation (Custom)
+    - Parameters (By Copy, By Reference, In, Out, Ref)
+    - Variable Scope (or Hiding, Masking)
   - Documentation II
     - Doc Comments (/** ... */)
 - Programming III
@@ -103,13 +104,8 @@ Table of Contents
     - Constructors, Destructors, Getters, Setters, Properties
     - Design Patterns (Factory, Singleton, Observer, etc.)
   - Data Types III
-    - Access Modifiers (default, public, private, protected, sealed, internal, readonly, static, volatile)
-    - Non-Access Modifiers (abstract, virtual, override, readonly, static, volatile, transient, synchronized, native)
-  - Functions III
-    - (Signature) Overloading and Default Values
-    - Invocations with Named Arguments
-    - (Definition) Overriding
-    - Higher-Order Functions
+    - Access Modifiers (public, private, protected, default, internal, const, final, readonly, sealed, static)
+    - Non-Access Modifiers (abstract, virtual, override, volatile, transient, synchronized, native)
   - Operators III
     - Bit-Wise (~, |, &, ^, <<, >>, >>>, |=, &=, ^=)
     - Overloading
@@ -129,6 +125,11 @@ Table of Contents
     - Memory Management and Garbage Collection (new/finalize/delete)
   - Input/Output III
     - Network I/O
+  - Functions III
+    - (Signature) Overloading and Default Values
+    - Invocations with Named Arguments
+    - (Definition) Overriding
+    - Higher-Order Functions and Closures
   - Documentation III
     - Annotations and Metadata (@)
     - Git/GitHub Commit Messages or History or Log
