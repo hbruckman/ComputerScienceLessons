@@ -80,6 +80,7 @@ Table of Contents
     - Block Comments (/* ... */)
     - Consistent Formatting (Indentation, Long-Lines Breaking)
 - Programming II
+  - Structured Programming (avoid gotos, breaks, continues, and multiple returns)
   - Modularization and Code Reuse
   - Data Types II
     - Nullable (?)
