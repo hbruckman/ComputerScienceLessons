@@ -19,20 +19,73 @@ Table of Contents
   - Problem Solving
 - Programming I
   - Setting Up and Getting Started
+    - Set Up Windows OS
+    - Set Up VS Code
+    - Set Up Git/GitHub
+    - Set Up C# and .Net in VS Code
+    - Set Up Java in VS Code
+    - Set Up Node.JS in VS Code
+    - Set Up Python in VS Code
   - Data Types
-  - Console I/O
+    - Primitive or Built-In
+    - Wrappers
+  - I/O I
+    - Console
+    - Keyboard
   - Operators I
+    - Arithmetic (+, -, *, /, %, ^, **)
+    - Assignment (=, +=, -=, *=, /=)
+    - Relational (==, !=, <, <=, >, >=)
+    - Boolean or Logic (!, ||, &&)
+    - Ternary (? :)
   - Expressions I
+    - Truncation
+    - Promotion
+    - Casting
   - Control Structures I
+    - If-Else-Then
+    - Switch
+    - While Loops
+    - Do-While Loops
+    - For Loops
+    - For-Each Loops
   - Data Structures I
-  - Comments and Documentation
+    - Arrays
+  - Documentation I
+    - Line Comments (// or #)
+    - Block Comments (/* ... */)
 - Programming II
   - Functions
   - Operators II
+    - Null-Coalescing (??)
+    - Nullable Reference (?)
+    - Null-Forgiving Operator (!)
   - Expressions II
+    - Truthy and Falsy
+    - Lambda or Arrow or Anonymous Functions
+    - Data Flow Pipelines (or Map-Reduce or Pipe-and-Filter or Streams)
   - Control Structure II
+    - Try-Catch-Finally
+    - Using (or Try-With-Resources)
+    - Asynchronous (or Promises)
+      - Async/Await
+      - Then-Catch-Finally
   - Data Structures II
-  - File I/O
-  - Network I/O
-  - Git/GitHub
-  
+    - Multi-Dimensional Arrays (or Matrices)
+    - Enums
+    - Structs
+    - Classes
+    - Collections
+      - Array Lists
+      - Linked List
+      - Stacks
+      - Queues
+      - Hash Tables (or Hash Maps or Dictionaries or Key-Value Pairs)
+      - Hash Sets
+  - I/O II
+    - File
+    - Network
+  - Documentation II
+    - Doc Comments (/** ... */)
+    - Annotations (@)
+    - Git/GitHub Commit Messages or History or Log
