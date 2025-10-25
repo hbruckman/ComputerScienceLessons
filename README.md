@@ -150,3 +150,5 @@ A comprehensive library of computer science lessons - including basic and advanc
 #### Documentation III
 - Annotations and Metadata (@)
 - Version Tracking (Git/GitHub Commit Messages/History/Log)
+
+This work is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0).
