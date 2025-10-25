@@ -109,9 +109,11 @@ Table of Contents
     - Code Readability and Style Guides
 - Programming III
   - Object-Oriented Programming (OOP)
-    - Encapsulation, Inheritance, Abstraction, Polymorphism
-    - Constructors, Destructors, Getters, Setters, Properties
-    - Design Patterns (Factory, Singleton, Observer, etc.)
+    - Terminology (Fields, Methods, Class/Instance Members, State, Inner Classes)
+    - Fundamental Concepts (Encapsulation, Inheritance, Abstraction, Polymorphism)
+    - Structure and Organization (Properties, Constructors, Destructors, Getters, Setters)
+    - Common Behaviors (ToString, Equals, GetHashCode)
+    - Design Patterns (Factory, Singleton, Observer)
   - Data Types III
     - Access Modifiers (public, private, protected, default, internal, const, final, readonly, sealed, static)
     - Non-Access Modifiers (abstract, virtual, override, volatile, transient, synchronized, native)
