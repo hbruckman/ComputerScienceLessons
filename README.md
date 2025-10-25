@@ -35,6 +35,7 @@ Table of Contents
   - Data Types I
     - Primitive (Built-In) and Wrappers (Object-Based)
     - Variables and Constants (const/final/readonly)
+    - Literals
   - Operators I
     - Unary (+, -, ++, --)
     - Arithmetic (+, -, *, /, %, ^, **)
@@ -48,6 +49,7 @@ Table of Contents
     - Implicit and Explicit Convertion (Truncation, Promotion, Casting, Parsing)
     - Overflow, Division By Zero
     - String and Character Utilities
+      - Escaped Characters
       - Concatenation and Formatting
       - IsDigit / IsLetter
       - IsNullOrEmpty / IsNullOrWhiteSpace
@@ -56,7 +58,7 @@ Table of Contents
       - Contains / IndexOf
       - Substring / Slice
       - Split / Join
-      - Verbatim or Multi-Line (@, """, \)
+      - Verbatim or Multi-Line (@, """, \\)
       - Interpolated ($, `, f)
   - Control Structures I
     - If, Else-If, and Else
