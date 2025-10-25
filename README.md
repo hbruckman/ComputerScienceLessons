@@ -5,6 +5,7 @@ Table of Contents
 
 - Introduction to Computer Science
   - Importance, Use, and Value
+  - Computer Scientist Profile
   - Data, Hardware, and Sofware
   - Databases
   - Networks, Internet, and World Wide Web
@@ -15,22 +16,23 @@ Table of Contents
   - Software Engineering
   - Artificial Intelligence
   - Societal, Ethical, Legal, Professional Concerns and Considerations
-  - Computer Scientist Profile
   - Problem Solving
-- Programming Logic
-  - Integrated Development Environments (IDEs)
+- Programming I
+  - Setting Up and Getting Started
   - Data Types
   - Console I/O
   - Operators I
-  - Expressions
+  - Expressions I
   - Control Structures I
   - Data Structures I
+  - Comments and Documentation
+- Programming II
   - Functions
   - Operators II
+  - Expressions II
   - Control Structure II
   - Data Structures II
   - File I/O
   - Network I/O
-  - Comments and Documentation
-  - Development Tools
+  - Git/GitHub
   
