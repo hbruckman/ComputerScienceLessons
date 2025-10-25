@@ -18,6 +18,7 @@ A comprehensive library of computer science lessons - including basic and advanc
 - Artificial Intelligence
 - Societal, Ethical, Legal, Professional Issues, Concerns, and Considerations
 - Problem Solving and Algorithmic Thinking
+<br><br>
 ### Programming I
 #### Setting Up and Getting Started
 - Set Up Windows OS
@@ -79,6 +80,7 @@ A comprehensive library of computer science lessons - including basic and advanc
 - Line or Inline Comments (// or #)
 - Block Comments (/* ... */)
 - Consistent Formatting (Indentation, Long-Lines Breaking)
+<br><br>
 ### Programming II
 #### Structured Programming (avoid gotos, breaks, continues, and multiple returns)
 #### Modularization and Code Reuse
@@ -108,6 +110,7 @@ A comprehensive library of computer science lessons - including basic and advanc
 #### Documentation II
 - Doc Comments (/** ... */)
 - Code Readability and Style Guides
+<br><br>
 ### Programming III
 #### Object-Oriented Programming (OOP)
 - Terminology (Fields, Methods, Class/Instance Members, State, Inner Classes)
