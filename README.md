@@ -1,9 +1,9 @@
 # Computer Science Lessons
 A comprehensive library of computer science lessons - including basic and advanced topics - meant as a learning and teaching resource hub for students and teachers, authored by Henry F. Bruckman Vargas, Ph.D.
 
-Table of Contents
+## Table of Contents
 
-- Introduction to Computer Science
+### Introduction to Computer Science
   - Importance, Use, and Value of Computing and Informatics
   - Computer Scientist Profile
   - Computer Components and the Von Neumann Model (Data, Hardware, and Software)
@@ -18,7 +18,7 @@ Table of Contents
   - Artificial Intelligence
   - Societal, Ethical, Legal, Professional Issues, Concerns, and Considerations
   - Problem Solving and Algorithmic Thinking
-- Programming I
+### Programming I
   - Setting Up and Getting Started
     - Set Up Windows OS
     - Set Up VS Code
@@ -79,7 +79,7 @@ Table of Contents
     - Line or Inline Comments (// or #)
     - Block Comments (/* ... */)
     - Consistent Formatting (Indentation, Long-Lines Breaking)
-- Programming II
+### Programming II
   - Structured Programming (avoid gotos, breaks, continues, and multiple returns)
   - Modularization and Code Reuse
   - Data Types II
@@ -108,7 +108,7 @@ Table of Contents
   - Documentation II
     - Doc Comments (/** ... */)
     - Code Readability and Style Guides
-- Programming III
+### Programming III
   - Object-Oriented Programming (OOP)
     - Terminology (Fields, Methods, Class/Instance Members, State, Inner Classes)
     - Fundamental Concepts (Encapsulation, Inheritance, Abstraction, Polymorphism)
