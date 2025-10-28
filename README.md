@@ -13,7 +13,7 @@ A comprehensive library of computer science lessons - including basic and advanc
 - Operating Systems and Virtualization
 - Computer/Network/System Security
 - Computer Graphics and Visualization
-- Human-Computer Interaction (HCI) and User Interfaces/Experience (UI/UX)
+- Human-Computer Interaction (HCI) and User Interface/Experience (UI/UX)
 - Software Engineering
 - Artificial Intelligence
 - Societal, Ethical, Legal, Professional Issues, Concerns, and Considerations
@@ -48,7 +48,7 @@ A comprehensive library of computer science lessons - including basic and advanc
 - Declarations and Initializations (Naming Hard Rules and Conventions)
 - Operator Precedence and Parenthesis
 - Implicit and Explicit Convertion (Truncation, Promotion, Casting, Parsing)
-- Overflow, Division By Zero
+- Overflow, Loss of Precision, Division By Zero
 - String and Character Utilities
   - Escaped Characters
   - Concatenation and Formatting
