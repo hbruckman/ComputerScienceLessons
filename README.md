@@ -127,6 +127,7 @@ A comprehensive library of computer science lessons - including basic and advanc
 - Type Checks and Casting (instanceof, is, is not, as)
 - Bit-Wise (~, |, &, ^, <<, >>, >>>, |=, &=, ^=)
 - Overloading
+- Double negation or bang (!!)
 #### Expressions III
 - Generic and Templates
 - Truthy / Falsy
