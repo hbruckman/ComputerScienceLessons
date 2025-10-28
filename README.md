@@ -36,7 +36,7 @@ A comprehensive library of computer science lessons - including basic and advanc
 #### Data Types I
 - Primitive (Built-In) and Wrappers (Object-Based)
 - Variables and Constants (const/final/readonly)
-- Literals
+- Literals and Escaped Characters
 #### Operators I
 - Unary (+, -, ++, --)
 - Arithmetic (+, -, *, /, %, ^, **)
@@ -50,7 +50,6 @@ A comprehensive library of computer science lessons - including basic and advanc
 - Implicit and Explicit Convertion (Truncation, Promotion, Casting, Parsing)
 - Overflow, Loss of Precision, Division By Zero
 - String and Character Utilities
-  - Escaped Characters
   - Concatenation and Formatting
   - IsDigit / IsLetter
   - IsNullOrEmpty / IsNullOrWhiteSpace
