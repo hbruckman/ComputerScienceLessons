@@ -13,7 +13,7 @@ A comprehensive library of computer science lessons - including basic and advanc
 - Operating Systems and Virtualization
 - Computer/Network/System Security
 - Computer Graphics and Visualization
-- Human-Computer Interaction (HCI) and UI/UX
+- Human-Computer Interaction (HCI) and User Interfaces/Experience (UI/UX)
 - Software Engineering
 - Artificial Intelligence
 - Societal, Ethical, Legal, Professional Issues, Concerns, and Considerations
