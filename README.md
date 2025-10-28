@@ -87,7 +87,7 @@ A comprehensive library of computer science lessons - including basic and advanc
 #### Data Types II
 - Nullable (?)
 #### Operators II
-- Optional Chaining Operator (?)
+- Optional Chaining (?)
 - Null-Coalescing (??)
 - Null-Forgiving (!)
 #### Expressions II
