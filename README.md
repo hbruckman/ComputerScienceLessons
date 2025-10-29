@@ -151,9 +151,7 @@ A comprehensive library of computer science lessons - including basic and advanc
 #### Documentation III
 - Annotations and Metadata (@)
 - Version Tracking (Git/GitHub Commit Messages/History/Log)
-
-This work is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0).
-
+<br><br>
 ### Front-End Web Development
 - User Interface / User Experience (UX/UI)
   - Accessibility
@@ -206,7 +204,12 @@ This work is licensed under a Creative Commons Attribution 4.0 International Lic
     - Transform (translate, scale, rotate, skew)
     - Miscellaneous (clear, content, columns, resize, pointer-events)
   - JavaScript (JS)
+<br><br>
 ### Back-End Web Development
+<br><br>
 ### Full-Stack Web Development
 #### Review of Front-End Web Development
 #### Review of Back-End Web Development
+
+This work is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0).
+
