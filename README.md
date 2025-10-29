@@ -154,9 +154,7 @@ A comprehensive library of computer science lessons - including basic and advanc
 
 This work is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0).
 
-
-### Full-Stack Web Development
-#### Review of Front-End Web Development
+### Front-End Web Development
 - User Interface / User Experience (UX/UI)
   - Accessibility
   - Responsive Web
@@ -208,4 +206,7 @@ This work is licensed under a Creative Commons Attribution 4.0 International Lic
     - Transform (translate, scale, rotate, skew)
     - Miscellaneous (clear, content, columns, resize, pointer-events)
   - JavaScript (JS)
+### Back-End Web Development
+### Full-Stack Web Development
+#### Review of Front-End Web Development
 #### Review of Back-End Web Development
