@@ -153,3 +153,59 @@ A comprehensive library of computer science lessons - including basic and advanc
 - Version Tracking (Git/GitHub Commit Messages/History/Log)
 
 This work is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0).
+
+
+### Full-Stack Web Development
+#### Review of Front-End Web Development
+- User Interface / User Experience (UX/UI)
+  - Accessibility
+  - Responsive Web
+- Absolute vs. Relative Paths
+- Hyper Text Markup Language (HTML)
+  - Terminology (Element, Empty Element, Attribute, Tags, Container)
+  - Formatting and Style Guidelines
+  - HTML Syntax and Structure
+  - Comments in HTML
+  - Global Attributes (id, class, style, lang, title, data-set)
+  - !DOCTYPE Declaration
+  - HTML Element
+  - HEAD Element
+    - Head Elements (title, meta, link, style, script, base)
+  - BODY Element
+    - Body Elements (h1-h6, p, a, img, ul, ol, li, table, tr, td)
+      - Hyperlinks
+      - Bookmarks
+      - Email Links
+      - Event Hooks
+    - Inline vs. Block Elements
+    - Generic vs. Semantic vs. Style Elements (div, span)
+    - Form Elements (form, label, input, select, option, button)
+      - Method
+      - Action (or OnSubmit Event Hook)
+  - Entities, Symbols & Emojis in HTML
+- Cascade Style Sheets (CSS)
+  - Terminology (Declaration, Select, Property)
+  - Formatting and Style Guidelines
+  - CSS Syntax and Structure
+  - CSS Comments
+  - CSS Embedding (Link Element, Style Element, Style Attribute)
+  - Selectors (Basic, Hierarchy, Pseudo-Element, Id, Class, Pseudo-Class, Attribute)
+  - Specifity (Order Stack, Point System, Style Attribute, !important Modifier)
+  - Absolute vs. Relative Length Units
+  - Color Values
+  - Generic Font Families
+  - Box Model (Content, Padding, Border, Margin/Outline)
+  - Grid and Flex Layouts
+  - Properties
+    - Alignment-Related (position, display, top, right, bottom, left, margin)
+    - Box-Related (Box-Sizing, Box-Shadow, Width, Height, Background, Padding, Border, Margin, Outline)
+    - Text-Related (Font, Text, Caret, Cursor)
+    - Image-Related (float, filter)
+    - List-Related (list-style)
+    - Table-Related (border-collapse, vertical-align)
+    - Render-Related (Opacity, Visibility, Overflow)
+    - Transition (duration, timing, delay)
+    - Transform (translate, scale, rotate, skew)
+    - Miscellaneous (clear, content, columns, resize, pointer-events)
+  - JavaScript (JS)
+#### Review of Back-End Web Development
