@@ -76,7 +76,7 @@ A comprehensive library of computer science lessons - including basic and advanc
 ### Programming II
 #### Structured Programming
 - Fundamentals Concepts (avoid gotos, excessive breaks / continues, and multiple returns)
-#### Modularization and Code Reuse
+- Modularization and Code Reuse
 #### Data Types II
 - Nullable (?)
 #### Operators II
