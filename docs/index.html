@@ -2,290 +2,466 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
+  <title>Computer Science Lessons - Outline</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Computer Science Lessons — Table of Contents</title>
-  <link rel="stylesheet" href="styles.css" />
-  <meta name="description" content="A comprehensive library of computer science lessons meant as a learning and teaching resource hub for students and teachers, authored by Henry F. Bruckman Vargas, Ph.D." />
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="site-header">
-    <div class="container">
-      <h1 id="top">Computer Science Lessons</h1>
-      <p class="tagline">
-        A comprehensive library of computer science lessons - including basic and advanced topics - meant as a learning and teaching resource hub for students and teachers, authored by Henry F. Bruckman Vargas, Ph.D.
-      </p>
-    </div>
-  </header>
+  <h1>Computer Science Lessons</h1>
+  <p>A comprehensive library of computer science lessons - including basic and advanced topics - meant as a learning and teaching resource hub for students and teachers, authored by Henry F. Bruckman Vargas, Ph.D.</p>
 
-  <main class="container" id="main">
-    <h2>Table of Contents</h2>
+  <h2>Table of Contents</h2>
 
-    <!-- Introduction to Computer Science -->
-    <section class="toc-section" id="introduction-to-computer-science" aria-labelledby="intro-heading">
-      <h3 class="section-title" id="intro-heading">Introduction to Computer Science</h3>
-      <ul class="toc-list">
-        <li>Importance, Use, and Value of Computing and Informatics</li>
-        <li>Computer Scientist Profile</li>
-        <li>Computer Components and the Von Neumann Model (Data, Hardware, and Software)</li>
-        <li>Databases and Information Systems</li>
-        <li>Networks, Internet, and World Wide Web</li>
-        <li>Computer/Network/System Architecture</li>
-        <li>Operating Systems and Virtualization</li>
-        <li>Computer/Network/System Security</li>
-        <li>Computer Graphics and Visualization</li>
-        <li>Human-Computer Interaction (HCI) and UI/UX</li>
-        <li>Software Engineering</li>
-        <li>Artificial Intelligence</li>
-        <li>Societal, Ethical, Legal, Professional Issues, Concerns, and Considerations</li>
-        <li>Problem Solving and Algorithmic Thinking</li>
+  <h3>Introduction to Computer Science</h3>
+  <ul>
+    <li>Importance, Purpose, Use, and Value of Computing and Informatics</li>
+    <li>Computer Scientist Profile</li>
+    <li>Problem Solving and Algorithmic Thinking</li>
+    <li>Human-Computer Interaction (HCI) and User Interface/Experience (UI/UX)</li>
+    <li>Security (Computer/Network/System)</li>
+    <li>Architecture (Computer/Network/System)</li>
+    <li>Databases and Information Systems</li>
+    <li>Operating Systems and Virtualization</li>
+    <li>Computer Graphics and Visualization</li>
+    <li>Artificial Intelligence</li>
+    <li>Parallel, Distributed, and Cloud Computing</li>
+    <li>Software Engineering</li>
+    <li>Emergent Topics and Technologies</li>
+    <li>Issues, Concerns, and Considerations (Societal, Ethical, Moral, Legal, Professional)</li>
+  </ul>
+  <br><br>
+
+  <h3>Programming I</h3>
+
+  <h4>Setting Up and Getting Started</h4>
+  <ul>
+    <li>Setting Up the Development Environment
+      <ul>
+        <li>Windows OS</li>
+        <li>Visual Studio Code (VS Code)</li>
+        <li>Git/GitHub</li>
+        <li>C# and .Net in VS Code</li>
+        <li>Java in VS Code</li>
+        <li>Python in VS Code</li>
+        <li>Node.JS in VS Code</li>
       </ul>
-    </section>
+    </li>
+    <li>Writing, Building, and Running Your First Program</li>
+    <li>Understanding Source Code (Syntax, Case-Sensitivity)</li>
+    <li>Understanding Compilation (Building with Scripts, Compile-Time Errors)</li>
+    <li>Understanding Execution (Debugging with Breakpoints and Console Outputs, Runtime Errors)</li>
+    <li>Understanding IDE UI/UX (Shortcuts and Feedback)</li>
+  </ul>
 
-    <hr class="divider" />
+  <h4>Data Types I</h4>
+  <ul>
+    <li>Primitive (Built-In) and Wrappers (Object-Based)</li>
+    <li>Variables (var, let, int) and Constants (const, final, readonly)</li>
+    <li>Literals and Escaped Characters</li>
+  </ul>
 
-    <!-- Programming I -->
-    <section class="toc-section" id="programming-i" aria-labelledby="prog1-heading">
-      <h3 class="section-title" id="prog1-heading">Programming I</h3>
+  <h4>Operators I</h4>
+  <ul>
+    <li>Unary (+, -, ++, --)</li>
+    <li>Arithmetic (+, -, *, /, %, ^, **)</li>
+    <li>Assignment (=, +=, -=, *=, /=)</li>
+    <li>Relational (==, !=, &lt;, &lt;=, &gt;, &gt;=)</li>
+    <li>Logical or Boolean (!, ||, &amp;&amp;)</li>
+    <li>Ternary (? :)</li>
+  </ul>
 
-      <h4 class="subsection-title">Setting Up and Getting Started</h4>
-      <ul class="toc-list">
-        <li>Set Up Windows OS</li>
-        <li>Set Up VS Code</li>
-        <li>Set Up Git/GitHub</li>
-        <li>Set Up C# and .Net in VS Code</li>
-        <li>Set Up Java in VS Code</li>
-        <li>Set Up Python in VS Code</li>
-        <li>Set Up Node.JS in VS Code</li>
-        <li>Writing and Running (Debugging) Your First Program</li>
-        <li>Understanding Source Code (Syntax, Case-Sensitivity)</li>
-        <li>Understanding Compilation (Building, Tasks, Scripts, Compile-Time Errors)</li>
-        <li>Understanding Execution (Breakpoints, Console Outputs, Runtime Errors)</li>
-        <li>Understanding IDE UI/UX (Shortcuts and Feedback)</li>
+  <h4>Expressions I</h4>
+  <ul>
+    <li>Declarations and Initializations (Naming Hard Rules and Conventions)</li>
+    <li>Operator Precedence and Parenthesis</li>
+    <li>Type Conversion (Implicit / Explicit, Truncation, Promotion, Casting, Parsing)</li>
+    <li>Overflow, Precision Loss, Division By Zero</li>
+    <li>Strings and Characters
+      <ul>
+        <li>Concatenation and Formatting</li>
+        <li>Utilities (Is???, To???, Contains, IndexOf, Substring, Slice, Split, Join)</li>
+        <li>Multi-Line or Verbatim (@, &quot;&quot;&quot;, \\)</li>
+        <li>Interpolated ($, `, f)</li>
       </ul>
+    </li>
+  </ul>
 
-      <h4 class="subsection-title">Data Types I</h4>
-      <ul class="toc-list">
-        <li>Primitive (Built-In) and Wrappers (Object-Based)</li>
-        <li>Variables and Constants (const/final/readonly)</li>
-        <li>Literals</li>
+  <h4>Control Structures I</h4>
+  <ul>
+    <li>Conditional Statements (if, else if, else, switch)</li>
+    <li>Loops (while, do-while, for, foreach)</li>
+  </ul>
+
+  <h4>Data Structures I</h4>
+  <ul>
+    <li>Arrays</li>
+    <li>Linear Search</li>
+  </ul>
+
+  <h4>Functions I</h4>
+  <ul>
+    <li>Invocation or Call</li>
+    <li>Arguments</li>
+    <li>Return Type</li>
+  </ul>
+
+  <h4>Input/Output I</h4>
+  <ul>
+    <li>Console I/O</li>
+    <li>String Parsing and Input Validation</li>
+  </ul>
+
+  <h4>Documentation I</h4>
+  <ul>
+    <li>Line or Inline Comments (// or #)</li>
+    <li>Block Comments (/* ... */)</li>
+    <li>Consistent Formatting (Indentation, Long-Lines Breaking)</li>
+  </ul>
+  <br><br>
+
+  <h3>Programming II</h3>
+
+  <h4>Structured Programming</h4>
+  <ul>
+    <li>Fundamentals Concepts (avoid gotos, excessive breaks / continues, and multiple returns)</li>
+    <li>Modularization and Code Reuse</li>
+  </ul>
+
+  <h4>Data Types II</h4>
+  <ul>
+    <li>Nullable (?)</li>
+  </ul>
+
+  <h4>Operators II</h4>
+  <ul>
+    <li>Optional Chaining (?)</li>
+    <li>Null-Coalescing (??)</li>
+    <li>Nullish Assignment (??=)</li>
+    <li>Null-Forgiving (!)</li>
+    <li>Index-From-End (^)</li>
+  </ul>
+
+  <h4>Expressions II</h4>
+  <ul>
+    <li>Lambda/Arrow/Anonymous Functions (=&gt; or -&gt;)</li>
+    <li>Data Flow Pipelines (Filter-Map-Reduce, Pipe-and-Filter, Streams)</li>
+    <li>Negative Indices and Ranges ([-1], [1..4])</li>
+  </ul>
+
+  <h4>Control Structures II</h4>
+  <ul>
+    <li>Nested Loops and Loop Control (break, continue, labels, return)</li>
+    <li>Exception Handling (try-catch-finally)</li>
+    <li>Resource Management (Using, Try-With-Resources)</li>
+  </ul>
+
+  <h4>Data Structures II</h4>
+  <ul>
+    <li>Multi-Dimensional Arrays (Matrices)</li>
+    <li>Enums, Structs, Records, and Tuples</li>
+    <li>Collections (Lists, Maps, Sets)</li>
+  </ul>
+
+  <h4>Functions II</h4>
+  <ul>
+    <li>Custom Definitions</li>
+    <li>Parameters Passing (By Copy, By Reference)</li>
+    <li>Variable Scope/Lifetime and Hiding/Masking/Shadowing</li>
+  </ul>
+
+  <h4>Input/Output II</h4>
+  <ul>
+    <li>File I/O</li>
+    <li>Absolute vs. Relative Paths</li>
+  </ul>
+
+  <h4>Documentation II</h4>
+  <ul>
+    <li>Doc Comments (/** ... */)</li>
+    <li>Code Readability and Style Guides</li>
+  </ul>
+  <br><br>
+
+  <h3>Programming III</h3>
+
+  <h4>Object-Oriented Programming (OOP)</h4>
+  <ul>
+    <li>Terminology (Fields, Methods, Class/Instance Members, State, Inner Classes)</li>
+    <li>Fundamental Concepts (Encapsulation, Inheritance, Abstraction, Polymorphism)</li>
+    <li>Structure and Organization (Properties, Constructors, Destructors, Getters, Setters)</li>
+    <li>Common Behaviors (ToString, Equals, GetHashCode)</li>
+    <li>Design Patterns (Factory, Singleton, Observer)</li>
+  </ul>
+
+  <h4>Data Types III</h4>
+  <ul>
+    <li>Access Modifiers (public, private, protected, default, internal, const, final, readonly, sealed, static)</li>
+    <li>Non-Access Modifiers (abstract, virtual, override, volatile, transient, synchronized, native)</li>
+    <li>Type Systems: Static vs. Dynamic, Strong vs. Weak</li>
+  </ul>
+
+  <h4>Operators III</h4>
+  <ul>
+    <li>Type Checks and Casting (instanceof, is, is not, as)</li>
+    <li>Bit-Wise (~, |, &amp;, ^, &lt;&lt;, &gt;&gt;, &gt;&gt;&gt;, |=, &amp;=, ^=)</li>
+    <li>Overloading</li>
+    <li>Double Negation or Bang (!!)</li>
+    <li>Short-Circuiting and Pipelining (|, ||, &amp;, &amp;&amp;, |&gt;)</li>
+  </ul>
+
+  <h4>Expressions III</h4>
+  <ul>
+    <li>Generic and Templates</li>
+    <li>Truthy / Falsy</li>
+    <li>Regular Expressions (Regex)</li>
+  </ul>
+
+  <h4>Control Structures III</h4>
+  <ul>
+    <li>Asynchronous Control (Promises)
+      <ul>
+        <li>Async/Await</li>
+        <li>Then-Catch-Finally</li>
       </ul>
+    </li>
+  </ul>
 
-      <h4 class="subsection-title">Operators I</h4>
-      <ul class="toc-list">
-        <li>Unary (<code>+</code>, <code>-</code>, <code>++</code>, <code>--</code>)</li>
-        <li>Arithmetic (<code>+</code>, <code>-</code>, <code>*</code>, <code>/</code>, <code>%</code>, <code>^</code>, <code>**</code>)</li>
-        <li>Assignment (<code>=</code>, <code>+=</code>, <code>-=</code>, <code>*=</code>, <code>/=</code>)</li>
-        <li>Relational (<code>==</code>, <code>!=</code>, <code>&lt;</code>, <code>&lt;=</code>, <code>&gt;</code>, <code>&gt;=</code>)</li>
-        <li>Logical or Boolean (<code>!</code>, <code>||</code>, <code>&amp;&amp;</code>)</li>
-        <li>Ternary (<code>? :</code>)</li>
+  <h4>Data Structures III</h4>
+  <ul>
+    <li>Classes, Abstract Classes, and Interfaces</li>
+    <li>Abstract Collections (Lists, Stacks, Queues, Deques, Maps, Sets)</li>
+    <li>Memory Management and Garbage Collection (new, finalize, delete)</li>
+  </ul>
+
+  <h4>Functions III</h4>
+  <ul>
+    <li>Variadic or Variable-Length Parameters (params, ..., *args)</li>
+    <li>(Signature) Overloading and Default Values</li>
+    <li>Named Arguments</li>
+    <li>(Definition) Overriding</li>
+    <li>Recursion</li>
+    <li>Callbacks, Higher-Order Functions, and Closures</li>
+  </ul>
+
+  <h4>Input/Output III</h4>
+  <ul>
+    <li>Network I/O</li>
+    <li>Common Communication Protocols</li>
+  </ul>
+
+  <h4>Documentation III</h4>
+  <ul>
+    <li>Annotations and Metadata (@)</li>
+    <li>Version Tracking (Git/GitHub History/Log)
+      <ul>
+        <li>Git Commit Message Conventions</li>
       </ul>
+    </li>
+  </ul>
+  <br><br>
 
-      <h4 class="subsection-title">Expressions I</h4>
-      <ul class="toc-list">
-        <li>Declarations and Initializations (Naming Hard Rules and Conventions)</li>
-        <li>Operator Precedence and Parenthesis</li>
-        <li>Implicit and Explicit Convertion (Truncation, Promotion, Casting, Parsing)</li>
-        <li>Overflow, Division By Zero</li>
-        <li>String and Character Utilities
+  <h3>Front-End Web Development</h3>
+  <ul>
+    <li>Introduction
+      <ul>
+        <li>Importance, Purpose, Use, and Value of Front-End Web Development</li>
+        <li>Front-End Web Developer Profile</li>
+      </ul>
+    </li>
+    <li>User Interface / User Experience (UX/UI)
+      <ul>
+        <li>Accessibility</li>
+        <li>Responsive Web</li>
+      </ul>
+    </li>
+    <li>Absolute vs. Relative Paths</li>
+    <li>Hyper Text Markup Language (HTML)
+      <ul>
+        <li>Terminology (Element, Empty Element, Attribute, Tags, Container)</li>
+        <li>Syntax and Structure</li>
+        <li>Comments</li>
+        <li>Formatting and Style Guidelines</li>
+        <li>Global Attributes (id, class, style, lang, title, data-set)
           <ul>
-            <li>Escaped Characters</li>
-            <li>Concatenation and Formatting</li>
-            <li>IsDigit / IsLetter</li>
-            <li>IsNullOrEmpty / IsNullOrWhiteSpace</li>
-            <li>IsLowerCase / IsUpperCase</li>
-            <li>ToLowerCase / ToLowerCase</li>
-            <li>Contains / IndexOf</li>
-            <li>Substring / Slice</li>
-            <li>Split / Join</li>
-            <li>Verbatim or Multi-Line (<code>@</code>, <code>"""</code>, <code>\\</code>)</li>
-            <li>Interpolated (<code>$</code>, <code>`</code>, <code>f</code>)</li>
+            <li>Event Hooks</li>
+          </ul>
+        </li>
+        <li>Document Structure (!DOCTYPE, html, head, body)
+          <ul>
+            <li>Head Elements (title, meta, link, style, script, base)</li>
+            <li>Body Elements (h1-h6, p, a, img, ul, ol, li, table, tr, td)</li>
+            <li>Form Elements (form, label, input, select, option, button)</li>
+          </ul>
+        </li>
+        <li>Inline vs. Block Elements</li>
+        <li>Generic vs. Semantic vs. Style Elements (div vs section, em vs i)</li>
+        <li>Entities, Symbols, and Emojis</li>
+      </ul>
+    </li>
+    <li>Cascade Style Sheets (CSS)
+      <ul>
+        <li>Terminology (Declaration, Selector, Property)</li>
+        <li>Syntax and Structure</li>
+        <li>Comments</li>
+        <li>Formatting and Style Guidelines</li>
+        <li>Embedding in HTML (Link Element, Style Element, Style Attribute)</li>
+        <li>Selectors (Universal, Element, Hierarchy, Id, Class, Pseudo-Element, Pseudo-Class, Attribute)</li>
+        <li>Specificity (Order Stack, Point System, Style Attribute, !important Modifier)</li>
+        <li>Absolute vs. Relative Units</li>
+        <li>Color Values</li>
+        <li>Generic Font Families</li>
+        <li>Box Model (Content, Padding, Border, Margin/Outline)</li>
+        <li>Layouts (Grid, Flexbox)</li>
+        <li>Properties
+          <ul>
+            <li>Alignment-Related (position, display, top, right, bottom, left, margin)</li>
+            <li>Box-Related (Box-Sizing, Box-Shadow, Width, Height, Background, Padding, Border, Margin, Outline)</li>
+            <li>Text-Related (Font, Text, Caret, Cursor)</li>
+            <li>Image-Related (float, filter)</li>
+            <li>List-Related (list-style)</li>
+            <li>Table-Related (border-collapse, vertical-align)</li>
+            <li>Render-Related (Opacity, Visibility, Overflow)</li>
+            <li>Transition (duration, timing, delay)</li>
+            <li>Transform (translate, scale, rotate, skew)</li>
+            <li>Miscellaneous (clear, content, columns, resize, pointer-events)</li>
+          </ul>
+        </li>
+        <li>Custom Properties (or Variables)
+          <ul>
+            <li>Dynamic Theming</li>
           </ul>
         </li>
       </ul>
-
-      <h4 class="subsection-title">Control Structures I</h4>
-      <ul class="toc-list">
-        <li>If, Else-If, and Else</li>
-        <li>Switch</li>
-        <li>Loops (While, Do-While, For, For-Each)</li>
-      </ul>
-
-      <h4 class="subsection-title">Data Structures I</h4>
-      <ul class="toc-list">
-        <li>Arrays</li>
-        <li>Linear Search</li>
-      </ul>
-
-      <h4 class="subsection-title">Functions I</h4>
-      <ul class="toc-list">
-        <li>Invocation or Call</li>
-        <li>Arguments</li>
-        <li>Return Type</li>
-      </ul>
-
-      <h4 class="subsection-title">Input/Output I</h4>
-      <ul class="toc-list">
-        <li>Console I/O</li>
-        <li>String Parsing</li>
-        <li>Input Validation</li>
-      </ul>
-
-      <h4 class="subsection-title">Documentation I</h4>
-      <ul class="toc-list">
-        <li>Line or Inline Comments (<code>//</code> or <code>#</code>)</li>
-        <li>Block Comments (<code>/* ... */</code>)</li>
-        <li>Consistent Formatting (Indentation, Long-Lines Breaking)</li>
-      </ul>
-    </section>
-
-    <hr class="divider" />
-
-    <!-- Programming II -->
-    <section class="toc-section" id="programming-ii" aria-labelledby="prog2-heading">
-      <h3 class="section-title" id="prog2-heading">Programming II</h3>
-
-      <h4 class="subsection-title">Structured Programming (avoid gotos, breaks, continues, and multiple returns)</h4>
-
-      <h4 class="subsection-title">Modularization and Code Reuse</h4>
-
-      <h4 class="subsection-title">Data Types II</h4>
-      <ul class="toc-list">
-        <li>Nullable (<code>?</code>)</li>
-      </ul>
-
-      <h4 class="subsection-title">Operators II</h4>
-      <ul class="toc-list">
-        <li>Null-Coalescing (<code>??</code>)</li>
-        <li>Null-Forgiving (<code>!</code>)</li>
-      </ul>
-
-      <h4 class="subsection-title">Expressions II</h4>
-      <ul class="toc-list">
-        <li>Lambda or Arrow or Anonymous Functions (<code>=&gt;</code> or <code>-&gt;</code>)</li>
-        <li>Data Flow Pipelines (Map-Reduce, Pipe-and-Filter, Streams)</li>
-      </ul>
-
-      <h4 class="subsection-title">Control Structures II</h4>
-      <ul class="toc-list">
-        <li>Nested Loops and Loop Control (break, continue, labels, return)</li>
-        <li>Exception Handling (Try-Catch-Finally)</li>
-        <li>Resource Management (Using, Try-With-Resources)</li>
-      </ul>
-
-      <h4 class="subsection-title">Data Structures II</h4>
-      <ul class="toc-list">
-        <li>Multi-Dimensional Arrays (Matrices)</li>
-        <li>Enums</li>
-        <li>Structs, Records, and Tuples</li>
-        <li>Concrete Collections (Array/Linked List, Hash Tables/Maps/Sets, Dictionaries, Key-Value Pairs)</li>
-      </ul>
-
-      <h4 class="subsection-title">Functions II</h4>
-      <ul class="toc-list">
-        <li>Custom Definitions</li>
-        <li>Parameters (By Copy, By Reference)</li>
-        <li>Variable Scope/Lifetime and Hiding/Masking/Shadowing</li>
-      </ul>
-
-      <h4 class="subsection-title">Input/Output II</h4>
-      <ul class="toc-list">
-        <li>File I/O</li>
-      </ul>
-
-      <h4 class="subsection-title">Documentation II</h4>
-      <ul class="toc-list">
-        <li>Doc Comments (<code>/** ... */</code>)</li>
-        <li>Code Readability and Style Guides</li>
-      </ul>
-    </section>
-
-    <hr class="divider" />
-
-    <!-- Programming III -->
-    <section class="toc-section" id="programming-iii" aria-labelledby="prog3-heading">
-      <h3 class="section-title" id="prog3-heading">Programming III</h3>
-
-      <h4 class="subsection-title">Object-Oriented Programming (OOP)</h4>
-      <ul class="toc-list">
-        <li>Terminology (Fields, Methods, Class/Instance Members, State, Inner Classes)</li>
-        <li>Fundamental Concepts (Encapsulation, Inheritance, Abstraction, Polymorphism)</li>
-        <li>Structure and Organization (Properties, Constructors, Destructors, Getters, Setters)</li>
-        <li>Common Behaviors (ToString, Equals, GetHashCode)</li>
-        <li>Design Patterns (Factory, Singleton, Observer)</li>
-      </ul>
-
-      <h4 class="subsection-title">Data Types III</h4>
-      <ul class="toc-list">
-        <li>Access Modifiers (public, private, protected, default, internal, const, final, readonly, sealed, static)</li>
-        <li>Non-Access Modifiers (abstract, virtual, override, volatile, transient, synchronized, native)</li>
-        <li>Type Systems: Static vs. Dynamic, Strong vs. Weak</li>
-      </ul>
-
-      <h4 class="subsection-title">Operators III</h4>
-      <ul class="toc-list">
-        <li>Type Checks and Casting (<code>instanceof</code>, <code>is</code>, <code>is not</code>, <code>as</code>)</li>
-        <li>Bit-Wise (<code>~</code>, <code>|</code>, <code>&amp;</code>, <code>^</code>, <code>&lt;&lt;</code>, <code>&gt;&gt;</code>, <code>&gt;&gt;&gt;</code>, <code>|=</code>, <code>&amp;=</code>, <code>^=</code>)</li>
-        <li>Overloading</li>
-      </ul>
-
-      <h4 class="subsection-title">Expressions III</h4>
-      <ul class="toc-list">
-        <li>Generic and Templates</li>
-        <li>Truthy / Falsy</li>
-        <li>Short-Circuiting Pipe or Processing (<code>|</code>, <code>||</code>, <code>&amp;</code>, <code>&amp;&amp;</code>, <code>|&gt;</code>)</li>
-        <li>Recursion</li>
-        <li>Regular Expressions</li>
-      </ul>
-
-      <h4 class="subsection-title">Control Structures III</h4>
-      <ul class="toc-list">
-        <li>Asynchronous Control (Promises)
+    </li>
+    <li>JavaScript (JS)
+      <ul>
+        <li>Overview of Programming
           <ul>
-            <li>Async/Await</li>
-            <li>Then-Catch-Finally</li>
+            <li>Data Types (Number, NaN, String, Boolean, Array, Object, Null, Undefined)
+              <ul>
+                <li>Type Systems: Static vs. Dynamic, Strong vs. Weak</li>
+              </ul>
+            </li>
+            <li>Operators
+              <ul>
+                <li>Optional Chaining (?)</li>
+                <li>Null-Coalescing (??)</li>
+                <li>Nullish Assignment (??=)</li>
+              </ul>
+            </li>
+            <li>Expressions
+              <ul>
+                <li>Truthy and Falsy</li>
+                <li>Template Literals or Multi-Line + Interpolated Strings (`)</li>
+                <li>Lambda or Arrow or Anonymous Functions (=&gt; or -&gt;)</li>
+                <li>Data Flow Pipelines (map, filter, reduce, flat, forEach, find, findIndex, some, every, sort, reverse, group)</li>
+                <li>Double Negation or Bang (!!)</li>
+                <li>Short-Circuiting Pipe or Processing (||, &amp;&amp;)</li>
+              </ul>
+            </li>
+            <li>Control Structures
+              <ul>
+                <li>Callbacks</li>
+                <li>Asynchronous Control (Promises)
+                  <ul>
+                    <li>Async/Await</li>
+                    <li>Then-Catch-Finally</li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li>Data Structures
+              <ul>
+                <li>Arrays and Collections (push, pop, shift, unshift, splice, slice, includes, indexOf, join, split)</li>
+                <li>Map and Sets</li>
+              </ul>
+            </li>
+            <li>Functions
+              <ul>
+                <li>First-Class Citizens</li>
+                <li>Higher-Order Functions and Closures</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>Environment APIs
+          <ul>
+            <li>Browser Object Model (BOM) (Window, Navigator, Location, History, Screen)</li>
+            <li>Document Object Model (DOM) (Tree, Event, Observers)</li>
+            <li>CSS Object Model (CSSOM)</li>
+            <li>Storage and Data Persistence (Local, Session, Cache, IndexedDB, Cookies)</li>
+            <li>Networking and Communication (Fetch, XMLHttpRequest, WebSocket, EventSource, WebRTC)</li>
+            <li>Location and Sensors (Geolocation, Orientation, Motion, Light, Proximity)</li>
+            <li>Files, Media, and Streams (Blob, Streams, Recorder)</li>
+            <li>Graphics and Visual (WebGL, SVG, Canvas, Web Animations, WebGPU)</li>
+            <li>Performance, Timing, and Workers </li>
+            <li>Security and Identity (Credential, Auth, Credential, CSP, Crypto, Clipboard, Payment)</li>
+            <li>User Interface (Gestures, Speech Recognition / Synthesis, Notifications, Vibration)</li>
+            <li>Hardware and Devices (USB, Bluetooth, Serial, HID, Gamepad, Battery, Fullscreen)</li>
           </ul>
         </li>
       </ul>
+    </li>
+  </ul>
+  <br><br>
 
-      <h4 class="subsection-title">Data Structures III</h4>
-      <ul class="toc-list">
-        <li>Classes, Abstract Classes, and Interfaces</li>
-        <li>Abstract Collections (List, Stacks, Queues, Deques, Maps, Sets)</li>
-        <li>Memory Management and Garbage Collection (new, finalize, delete)</li>
+  <h3>Back-End Web Development</h3>
+
+  <h4>Review of Front-End Web Development</h4>
+
+  <h4>Back-End Architecture</h4>
+  <ul>
+    <li>Introduction
+      <ul>
+        <li>Importance, Purpose, Use, and Value of Back-End Web Development</li>
+        <li>Back-End Web Developer Profile</li>
       </ul>
-
-      <h4 class="subsection-title">Functions III</h4>
-      <ul class="toc-list">
-        <li>(Signature) Overloading and Default Values</li>
-        <li>Invocations with Named Arguments</li>
-        <li>(Definition) Overriding</li>
-        <li>Higher-Order Functions and Closures</li>
+    </li>
+    <li>System Quality Attributes</li>
+    <li>Folder Structure
+      <ul>
+        <li>Organized by Layers</li>
+        <li>Organized by Features</li>
+        <li>Choosing Between Them</li>
       </ul>
-
-      <h4 class="subsection-title">Input/Output III</h4>
-      <ul class="toc-list">
-        <li>Network I/O</li>
+    </li>
+    <li>Architectural Models
+      <ul>
+        <li>Client-Server</li>
+        <li>Peer-to-Peer (P2P)</li>
+        <li>N-Tier</li>
+        <li>Distributed</li>
       </ul>
-
-      <h4 class="subsection-title">Documentation III</h4>
-      <ul class="toc-list">
-        <li>Annotations and Metadata (<code>@</code>)</li>
-        <li>Version Tracking (Git/GitHub Commit Messages/History/Log)</li>
+    </li>
+    <li>Architectural Components
+      <ul>
+        <li>Infrastructure (Load Balancers, Nodes, Containers, Web Servers)</li>
+        <li>Application Logic (Routers, Middleware, Controllers, Services, Repositories, Providers)</li>
       </ul>
-    </section>
+    </li>
+    <li>Bringing It All Together: Example Scenario</li>
+    <li>Architectural Styles, Approaches, and Patterns
+      <ul>
+        <li>Application Program Interface (API) (REST, GraphQL, gRPC)</li>
+        <li>Server-Side Rendered (SSR)</li>
+        <li>Client-Side Rendered (CSR)</li>
+        <li>Single-Page Application (SPA)</li>
+        <li>Progressive Web Application (PWA)</li>
+      </ul>
+    </li>
+  </ul>
+  <br><br>
 
-    <p class="back-to-top"><a href="#top">Back to top ↑</a></p>
-  </main>
+  <h3>Full-Stack Web Development</h3>
 
-  <footer class="site-footer">
-    <div class="container">
-      <small>&copy; <span id="year"></span> Henry F. Bruckman Vargas, Ph.D. All rights reserved.</small>
-    </div>
-  </footer>
+  <h4>Review of Front-End and Back-End Web Development</h4>
 
-  <script>
-    // Set current year in footer (no external deps)
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
+  <h4>Integration and Deployment</h4>
+  <ul>
+    <li>DevOps and CI/CD Fundamentals</li>
+    <li>Cloud Deployment and Containerization Basics</li>
+  </ul>
+
+  <p>This work is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0).</p>
 </body>
 </html>

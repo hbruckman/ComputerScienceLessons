@@ -1,134 +1,158 @@
-/* ===== Base ===== */
-:root {
-  --bg: #0f172a;            /* slate-900 */
-  --panel: #111827;         /* gray-900 */
-  --text: #e5e7eb;          /* gray-200 */
-  --muted: #cbd5e1;         /* slate-300 */
-  --accent: #60a5fa;        /* blue-400 */
-  --accent-2: #a78bfa;      /* violet-400 */
-  --border: #1f2937;        /* gray-800 */
-  --link: #93c5fd;          /* blue-300 */
-  --link-hover: #bfdbfe;    /* blue-200 */
+/* ==============================
+   Computer Science Lessons – Styles
+   Author: Henry F. Bruckman Vargas, Ph.D.
+   ============================== */
+
+/* -------- CSS Variables -------- */
+:root{
+  --bg: #ffffff;
+  --ink: #222222;
+  --muted-ink: #555555;
+  --accent: #0a7cff;
+  --border: #e6e6e6;
+
+  --maxw: 72rem;
+  --lh: 1.65;
+  --h1: clamp(2rem, 2.5vw + 1.5rem, 3rem);
+  --h2: clamp(1.5rem, 1.5vw + 1.1rem, 2.2rem);
+  --h3: clamp(1.25rem, 1.1vw + 1rem, 1.6rem);
+  --h4: clamp(1.05rem, 0.7vw + 0.9rem, 1.25rem);
+  --body: 1rem;
+
+  --pad-block: 0.5rem;
+  --section-gap: 1.25rem;
+  --subsection-gap: .75rem;
 }
 
-* { box-sizing: border-box; }
+/* Dark mode */
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg: #0e1116;
+    --ink: #e9eef5;
+    --muted-ink: #b7c0cc;
+    --accent: #4aa3ff;
+    --border: #263040;
+  }
+}
 
-html, body {
+/* -------- Page Base -------- */
+*{ box-sizing: border-box; }
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
   margin: 0;
-  padding: 0;
+  padding: 2rem 1rem 4rem;
+  font: 400 var(--body)/var(--lh) system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
+  color: var(--ink);
   background: var(--bg);
-  color: var(--text);
-  font: 16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Inter, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  display: grid;
+  place-items: start center;
 }
 
-/* ===== Layout ===== */
-.container {
-  max-width: 980px;
-  margin: 0 auto;
-  padding: 1rem 1.25rem;
+body > *{
+  width: min(100%, var(--maxw));
 }
 
-.site-header {
-  background: linear-gradient(180deg, rgba(96,165,250,0.08), rgba(167,139,250,0.06));
-  border-bottom: 1px solid var(--border);
-}
-
-.site-header h1 {
-  margin: 0 0 .25rem 0;
-  font-size: clamp(1.6rem, 2.4vw + 1rem, 2.4rem);
-  letter-spacing: .2px;
-}
-
-.tagline {
-  margin: 0;
-  color: var(--muted);
-}
-
-.site-footer {
-  border-top: 1px solid var(--border);
-  background: var(--panel);
-  color: var(--muted);
-  text-align: center;
-}
-
-/* ===== Content ===== */
-h2, h3, h4 {
-  margin-top: 1.25rem;
-  margin-bottom: .5rem;
+/* -------- Typography -------- */
+h1, h2, h3, h4{
   line-height: 1.25;
+  margin: 0;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  color: var(--ink);
 }
 
-h2 {
-  font-size: clamp(1.25rem, 1.4vw + 1rem, 1.75rem);
-  color: var(--accent-2);
+h1{ font-size: var(--h1); margin-bottom: .5rem; }
+h2{ font-size: var(--h2); margin-top: var(--section-gap); margin-bottom: .5rem; }
+h3{ font-size: var(--h3); margin-top: var(--section-gap); margin-bottom: .25rem; }
+h4{ font-size: var(--h4); margin-top: var(--subsection-gap); margin-bottom: .25rem; }
+
+p{
+  margin: .25rem 0 1rem 0;
+  color: var(--muted-ink);
 }
 
-.section-title {
-  font-size: clamp(1.1rem, 1.2vw + 1rem, 1.45rem);
+/* Ensure <br><br> visually separate sections without altering content */
+br + br{
+  display: block;
+  content: "";
+  margin-top: 1rem;
+}
+
+/* -------- Lists -------- */
+ul{
+  margin: .25rem 0 0.75rem 0;
+  padding-left: 1.3rem;
+}
+
+li{
+  margin-block: .15rem;
+}
+
+ul ul{            /* nested list */
+  margin-top: .3rem;
+  margin-bottom: .4rem;
+}
+
+li::marker{
   color: var(--accent);
 }
 
-.subsection-title {
-  font-size: 1.05rem;
-  margin-top: 1rem;
-  color: var(--text);
+/* Slight separation for sibling headings and lists */
+h3 + ul,
+h4 + ul{ margin-top: .35rem; }
+
+/* -------- Rules & Accents -------- */
+h2{
+  padding-block: .4rem .6rem;
+  border-bottom: 1px solid var(--border);
 }
 
-.toc-section {
-  padding-block: .5rem 1rem;
+h3{
+  padding-top: .25rem;
 }
 
-.divider {
-  border: none;
-  border-top: 1px dashed var(--border);
-  margin: 1.25rem 0;
-}
-
-/* Lists */
-ul.toc-list {
-  padding-left: 1.15rem;
-  margin: .25rem 0 .75rem;
-}
-
-ul.toc-list li {
-  margin: .25rem 0;
-}
-
-ul.toc-list ul {
-  margin-top: .25rem;
-}
-
-/* Inline code */
-code {
-  background: rgba(148,163,184,.15); /* slate-400 @ 15% */
+/* -------- Inline code safety (backticks in text won’t hurt) -------- */
+code, kbd{
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+  font-size: .95em;
+  background: color-mix(in oklab, var(--border) 60%, transparent);
   border: 1px solid var(--border);
-  border-radius: .35rem;
-  padding: .05rem .35rem;
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  font-size: .93em;
+  border-radius: 4px;
+  padding: .05em .35em;
 }
 
-/* Links */
-a { color: var(--link); text-decoration: none; }
-a:hover { color: var(--link-hover); text-decoration: underline; }
-
-.back-to-top {
-  margin-top: 2rem;
-  text-align: right;
+/* -------- Links (if you add any later) -------- */
+a{
+  color: var(--accent);
+  text-decoration: none;
 }
+a:hover{ text-decoration: underline; }
 
-/* ===== Utilities ===== */
-@media (prefers-color-scheme: light) {
-  :root {
+/* -------- Print Styles -------- */
+@media print{
+  :root{
     --bg: #ffffff;
-    --panel: #f8fafc;
-    --text: #0f172a;
-    --muted: #334155;
-    --accent: #2563eb;
-    --accent-2: #7c3aed;
-    --border: #e5e7eb;
-    --link: #1d4ed8;
-    --link-hover: #1e40af;
+    --ink: #000000;
+    --border: #cccccc;
   }
-  code { background: rgba(2,6,23,.05); border-color: #e5e7eb; }
+  body{
+    padding: 0.5in;
+    color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  h2{
+    border-color: #999;
+    page-break-after: avoid;
+  }
+  h3, h4{
+    page-break-after: avoid;
+  }
+  ul{
+    break-inside: avoid;
+  }
 }

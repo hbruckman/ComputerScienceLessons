@@ -128,7 +128,6 @@ A comprehensive library of computer science lessons - including basic and advanc
 #### Expressions III
 - Generic and Templates
 - Truthy / Falsy
-- Recursion
 - Regular Expressions (Regex)
 #### Control Structures III
 - Asynchronous Control (Promises)
@@ -143,7 +142,8 @@ A comprehensive library of computer science lessons - including basic and advanc
 - (Signature) Overloading and Default Values
 - Named Arguments
 - (Definition) Overriding
-- Higher-Order Functions and Closures
+- Recursion
+- Callbacks, Higher-Order Functions, and Closures
 #### Input/Output III
 - Network I/O
 - Common Communication Protocols
@@ -173,7 +173,7 @@ A comprehensive library of computer science lessons - including basic and advanc
     - Form Elements (form, label, input, select, option, button)
   - Inline vs. Block Elements
   - Generic vs. Semantic vs. Style Elements (div vs section, em vs i)
-  - Entities, Symbols & Emojis
+  - Entities, Symbols, and Emojis
 - Cascade Style Sheets (CSS)
   - Terminology (Declaration, Selector, Property)
   - Syntax and Structure
@@ -209,7 +209,6 @@ A comprehensive library of computer science lessons - including basic and advanc
       - Null-Coalescing (??)
       - Nullish Assignment (??=)
     - Expressions
-      - Arrays and Collections (push, pop, shift, unshift, splice, slice, includes, indexOf, join, split)
       - Truthy and Falsy
       - Template Literals or Multi-Line + Interpolated Strings (`)
       - Lambda or Arrow or Anonymous Functions (=> or ->)
@@ -217,9 +216,17 @@ A comprehensive library of computer science lessons - including basic and advanc
       - Double Negation or Bang (!!)
       - Short-Circuiting Pipe or Processing (||, &&)
     - Control Structures
+      - Callbacks
       - Asynchronous Control (Promises)
         - Async/Await
         - Then-Catch-Finally
+    - Data Structures
+      - Arrays and Collections (push, pop, shift, unshift, splice, slice, includes, indexOf, join, split)
+      - Map and Sets
+    - Functions
+      - First-Class Citizens
+      - Higher-Order Functions and Closures
+
   - Environment APIs
     - Browser Object Model (BOM) (Window, Navigator, Location, History, Screen)
     - Document Object Model (DOM) (Tree, Event, Observers)
