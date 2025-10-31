@@ -150,7 +150,8 @@ A comprehensive library of computer science lessons - including basic and advanc
 - Common Communication Protocols
 #### Documentation III
 - Annotations and Metadata (@)
-- Version Tracking (Git/GitHub Commit Messages/History/Log)
+- Version Tracking (Git/GitHub History/Log)
+  - Git Commit Message Conventions
 <br><br>
 ### Front-End Web Development
 - Introduction
