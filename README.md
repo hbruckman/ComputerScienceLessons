@@ -95,8 +95,7 @@ A comprehensive library of computer science lessons - including basic and advanc
 - Resource Management (Using, Try-With-Resources)
 #### Data Structures II
 - Multi-Dimensional Arrays (Matrices)
-- Enums
-- Structs, Records, and Tuples
+- Enums, Structs, Records, and Tuples
 - Collections (Lists, Maps, Sets)
 #### Functions II
 - Custom Definitions
@@ -168,7 +167,7 @@ A comprehensive library of computer science lessons - including basic and advanc
   - Formatting and Style Guidelines
   - Global Attributes (id, class, style, lang, title, data-set)
     - Event Hooks
-  - Document Structure (!DOCTYPE, <html>, <head>, <body>)
+  - Document Structure (!DOCTYPE, html, head, body)
     - Head Elements (title, meta, link, style, script, base)
     - Body Elements (h1-h6, p, a, img, ul, ol, li, table, tr, td)
     - Form Elements (form, label, input, select, option, button)
