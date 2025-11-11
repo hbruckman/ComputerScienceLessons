@@ -70,7 +70,7 @@ A comprehensive library of computer science lessons - including basic and advanc
 - String Parsing and Input Validation
 #### Documentation I
 - Line or Inline Comments (<code>//</code> or <code>#</code>)
-- Block Comments (<code>/\*</code> ... <code>\*/</code>)
+- Block Comments (<code>/* ... */</code>)
 - Consistent Formatting (Indentation, Long-Lines Breaking)
 <br><br>
 ### Programming II
@@ -105,7 +105,7 @@ A comprehensive library of computer science lessons - including basic and advanc
 - File I/O
 - Absolute vs. Relative Paths
 #### Documentation II
-- Doc Comments (<code>/\*\*</code> ... <code>\*/</code>)
+- Doc Comments (<code>/** ... */</code>)
 - Code Readability and Style Guides
 <br><br>
 ### Programming III
@@ -241,6 +241,7 @@ A comprehensive library of computer science lessons - including basic and advanc
       - Console Err / Output
       - Prompt, Confirm, and Alert Dialog Boxes
     - Documentation
+      - JSDoc Format (<code>/** ... */</code>)
 
   - Environment APIs
     - Browser Object Model (BOM) (Window, Navigator, Location, History, Screen)
