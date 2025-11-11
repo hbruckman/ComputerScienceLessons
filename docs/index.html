@@ -102,7 +102,7 @@
 			<h4 class="heading h4" id="documentation-i">Documentation I</h4>
 			<ul class="list level-1">
 				<li class="item">Line or Inline Comments (<code>//</code> or <code>#</code>)</li>
-				<li class="item">Block Comments (<code>/*</code> ... <code>*/</code>)</li>
+				<li class="item">Block Comments (<code>/\*</code> ... <code>\*/</code>)</li>
 				<li class="item">Consistent Formatting (Indentation, Long-Lines Breaking)</li>
 			</ul>
 			<br/><br/>
@@ -155,7 +155,7 @@
 			</ul>
 			<h4 class="heading h4" id="documentation-ii">Documentation II</h4>
 			<ul class="list level-1">
-				<li class="item">Doc Comments (<code>/**</code> ... <code>*/</code>)</li>
+				<li class="item">Doc Comments (<code>/\*\*</code> ... <code>\*/</code>)</li>
 				<li class="item">Code Readability and Style Guides</li>
 			</ul>
 			<br/><br/>
@@ -292,46 +292,67 @@
 				</ul>
 				<li class="item">JavaScript (JS)</li>
 				<ul class="list level-2">
-					<li class="item">Overview of Programming</li>
+					<li class="item">Review of General Programming Concepts</li>
+					<li class="item">Execution Model</li>
 					<ul class="list level-3">
-						<li class="item">Data Types (<code>Number</code>, <code>NaN</code>, <code>String</code>, <code>Boolean</code>, <code>Array</code>, <code>Object</code>, <code>null</code>, <code>undefined</code>)</li>
+						<li class="item">Event Loop and Call Stack</li>
+						<li class="item">Single-Threaded Yet Asynchronous</li>
+						<li class="item">Hoisting</li>
+						<li class="item">Garbage Collection</li>
+						<li class="item">Strict Mode</li>
+					</ul>
+					<li class="item">Overview of Exclusive Features</li>
+					<ul class="list level-3">
+						<li class="item">Data Types (<code>Number</code>, <code>BigInt</code>, <code>NaN</code>, <code>String</code>, <code>Boolean</code>, <code>Symbol</code>, <code>Array</code>, <code>Object</code>, <code>Function</code>, <code>null</code>, <code>undefined</code>)</li>
 						<ul class="list level-4">
 							<li class="item">Type Systems: Static vs. Dynamic, Strong vs. Weak</li>
 						</ul>
 						<li class="item">Operators</li>
 						<ul class="list level-4">
-							<li class="item">Optional Chaining (<code>?</code>)</li>
-							<li class="item">Null-Coalescing (<code>??</code>)</li>
-							<li class="item">Nullish Assignment (<code>??=</code>)</li>
+							<li class="item">Loose vs. Strict Equality (<code>==</code> vs. <code>===</code>)</li>
+							<li class="item">Type and Instance (<code>typeof</code>, <code>instanceof</code>)</li>
+							<li class="item">Rest / Spread (<code>...</code>)</li>
 						</ul>
 						<li class="item">Expressions</li>
 						<ul class="list level-4">
-							<li class="item">Truthy and Falsy</li>
-							<li class="item">Template Literals or Multi-Line + Interpolated Strings (<code>`</code>)</li>
-							<li class="item">Lambda or Arrow or Anonymous Functions (<code>=></code> or <code>-></code>)</li>
-							<li class="item">Data Flow Pipelines (<code>map</code>, <code>filter</code>, <code>reduce</code>, <code>flat</code>, <code>forEach</code>, <code>find</code>, <code>findIndex</code>, <code>some</code>, <code>every</code>, <code>sort</code>, <code>reverse</code>, <code>group</code>)</li>
-							<li class="item">Double Negation or Bang (<code>!!</code>)</li>
-							<li class="item">Short-Circuiting Pipe or Processing (<code>||</code>, <code>&&</code>)</li>
+							<li class="item">Dynamic Property Access (<code>obj.propName</code> or <code>obj[propName]</code>)</li>
+							<li class="item">Dynamic Code Execution (<code>eval()</code>)</li>
+							<li class="item">Truthy / Falsy</li>
+							<li class="item">Destructuring Assignment</li>
+							<ul class="list level-5">
+								<li class="item">Object Unpacking (<code>const {name, email} = contact;</code>)</li>
+								<li class="item">Array Unpacking (<code>const [first, second] = numbers;</code>)</li>
+							</ul>
+							<li class="item">Spread Syntax</li>
+							<ul class="list level-5">
+								<li class="item">Object Copy (<code>const c = {...contact, email: newEmail};</code>)</li>
+								<li class="item">Array Copy (<code>const d = [...numbers, 5, 21];</code>)</li>
+							</ul>
+							<li class="item">Rest Parameters (<code>const [first, ...rest] = numbers;</code>)</li>
+							<li class="item">Short-Circuit Evaluation (<code>a && b</code>, <code>a || b</code>)</li>
+							<li class="item">Immediately Invoked Function (<code>(function() { ... })();</code>)</li>
 						</ul>
 						<li class="item">Control Structures</li>
 						<ul class="list level-4">
-							<li class="item">Callbacks</li>
-							<li class="item">Asynchronous Control (Promises)</li>
-							<ul class="list level-5">
-								<li class="item"><code>async</code>/<code>await</code></li>
-								<li class="item"><code>then-catch-finally</code></li>
-							</ul>
+							<li class="item">Loops (<code>for...in</code>, <code>for...of</code>)</li>
+							<li class="item">Asynchronous (Promises + Calbacks, <code>async/await</code>, <code>then-catch-finally</code>)</li>
 						</ul>
 						<li class="item">Data Structures</li>
 						<ul class="list level-4">
-							<li class="item">Arrays and Collections (<code>push</code>, <code>pop</code>, <code>shift</code>, <code>unshift</code>, <code>splice</code>, <code>slice</code>, <code>includes</code>, <code>indexOf</code>, <code>join</code>, <code>split</code>)</li>
-							<li class="item">Map and Sets</li>
+							<li class="item">Maps and Sets</li>
 						</ul>
 						<li class="item">Functions</li>
 						<ul class="list level-4">
 							<li class="item">First-Class Citizens</li>
 							<li class="item">Higher-Order Functions and Closures</li>
+							<li class="item">'<code>this</code>' Binding Rules</li>
 						</ul>
+						<li class="item">Input/Output</li>
+						<ul class="list level-4">
+							<li class="item">Console Err / Output</li>
+							<li class="item">Prompt, Confirm, and Alert Dialog Boxes</li>
+						</ul>
+						<li class="item">Documentation</li>
 					</ul>
 					<li class="item">Environment APIs</li>
 					<ul class="list level-3">

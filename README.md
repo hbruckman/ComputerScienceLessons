@@ -70,7 +70,7 @@ A comprehensive library of computer science lessons - including basic and advanc
 - String Parsing and Input Validation
 #### Documentation I
 - Line or Inline Comments (<code>//</code> or <code>#</code>)
-- Block Comments (<code>/*</code> ... <code>*/</code>)
+- Block Comments (<code>/\*</code> ... <code>\*/</code>)
 - Consistent Formatting (Indentation, Long-Lines Breaking)
 <br><br>
 ### Programming II
@@ -105,7 +105,7 @@ A comprehensive library of computer science lessons - including basic and advanc
 - File I/O
 - Absolute vs. Relative Paths
 #### Documentation II
-- Doc Comments (<code>/**</code> ... <code>*/</code>)
+- Doc Comments (<code>/\*\*</code> ... <code>\*/</code>)
 - Code Readability and Style Guides
 <br><br>
 ### Programming III
@@ -201,31 +201,46 @@ A comprehensive library of computer science lessons - including basic and advanc
   - Custom Properties (or Variables)
     - Dynamic Theming
 - JavaScript (JS)
-  - Overview of Programming
-    - Data Types (<code>Number</code>, <code>NaN</code>, <code>String</code>, <code>Boolean</code>, <code>Array</code>, <code>Object</code>, <code>null</code>, <code>undefined</code>)
+  - Review of General Programming Concepts
+  - Execution Model
+    - Event Loop and Call Stack
+    - Single-Threaded Yet Asynchronous
+    - Hoisting
+    - Garbage Collection
+    - Strict Mode
+  - Overview of Exclusive Features
+    - Data Types (<code>Number</code>, <code>BigInt</code>, <code>NaN</code>, <code>String</code>, <code>Boolean</code>, <code>Symbol</code>, <code>Array</code>, <code>Object</code>, <code>Function</code>, <code>null</code>, <code>undefined</code>)
       - Type Systems: Static vs. Dynamic, Strong vs. Weak
     - Operators
-      - Optional Chaining (<code>?</code>)
-      - Null-Coalescing (<code>??</code>)
-      - Nullish Assignment (<code>??=</code>)
+      - Loose vs. Strict Equality (<code>==</code> vs. <code>===</code>)
+      - Type and Instance (<code>typeof</code>, <code>instanceof</code>)
+      - Rest / Spread (<code>...</code>)
     - Expressions
-      - Truthy and Falsy
-      - Template Literals or Multi-Line + Interpolated Strings (<code>`</code>)
-      - Lambda or Arrow or Anonymous Functions (<code>=></code> or <code>-></code>)
-      - Data Flow Pipelines (<code>map</code>, <code>filter</code>, <code>reduce</code>, <code>flat</code>, <code>forEach</code>, <code>find</code>, <code>findIndex</code>, <code>some</code>, <code>every</code>, <code>sort</code>, <code>reverse</code>, <code>group</code>)
-      - Double Negation or Bang (<code>!!</code>)
-      - Short-Circuiting Pipe or Processing (<code>||</code>, <code>&&</code>)
+      - Dynamic Property Access (<code>obj.propName</code> or <code>obj[propName]</code>)
+      - Dynamic Code Execution (<code>eval()</code>)
+      - Truthy / Falsy
+      - Destructuring Assignment
+        - Object Unpacking (<code>const {name, email} = contact;</code>)
+        - Array Unpacking (<code>const [first, second] = numbers;</code>)
+      - Spread Syntax
+        - Object Copy (<code>const c = {...contact, email: newEmail};</code>)
+        - Array Copy (<code>const d = [...numbers, 5, 21];</code>)
+      - Rest Parameters (<code>const [first, ...rest] = numbers;</code>)
+      - Short-Circuit Evaluation (<code>a && b</code>, <code>a || b</code>)
+      - Immediately Invoked Function (<code>(function() { ... })();</code>)
     - Control Structures
-      - Callbacks
-      - Asynchronous Control (Promises)
-        - <code>async</code>/<code>await</code>
-        - <code>then-catch-finally</code>
+      - Loops (<code>for...in</code>, <code>for...of</code>)
+      - Asynchronous (Promises + Calbacks, <code>async/await</code>, <code>then-catch-finally</code>)
     - Data Structures
-      - Arrays and Collections (<code>push</code>, <code>pop</code>, <code>shift</code>, <code>unshift</code>, <code>splice</code>, <code>slice</code>, <code>includes</code>, <code>indexOf</code>, <code>join</code>, <code>split</code>)
-      - Map and Sets
+      - Maps and Sets
     - Functions
       - First-Class Citizens
       - Higher-Order Functions and Closures
+      - '<code>this</code>' Binding Rules
+    - Input/Output
+      - Console Err / Output
+      - Prompt, Confirm, and Alert Dialog Boxes
+    - Documentation
 
   - Environment APIs
     - Browser Object Model (BOM) (Window, Navigator, Location, History, Screen)
