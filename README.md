@@ -36,15 +36,15 @@ A comprehensive library of computer science lessons - including basic and advanc
 - Understanding IDE UI/UX (Shortcuts and Feedback)
 #### Data Types I
 - Primitive (Built-In) and Wrappers (Object-Based)
-- Variables (var, let, int) and Constants (const, final, readonly)
-- Literals and Escaped Characters
+- Variables (<code>var</code>, <code>let</code>, <code>int</code>) and Constants (<code>const</code>, <code>final</code>, <code>readonly</code>)
+- Literals and Escaped Characters (<code>'\n'</code>, <code>'\t'</code>, <code>'\u13567'</code>)
 #### Operators I
-- Unary (+, -, ++, --)
-- Arithmetic (+, -, *, /, %, ^, **)
-- Assignment (=, +=, -=, *=, /=)
-- Relational (==, !=, <, <=, >, >=)
-- Logical or Boolean (!, ||, &&)
-- Ternary (? :)
+- Unary (<code>+</code>, <code>-</code>, <code>++</code>, <code>--</code>)
+- Arithmetic (<code>+</code>, <code>-</code>, <code>*</code>, <code>/</code>, <code>%</code>, <code>^</code>, <code>**</code>)
+- Assignment (<code>=</code>, <code>+=</code>, <code>-=</code>, <code>*=</code>, <code>/=</code>)
+- Relational (<code>==</code>, <code>!=</code>, <code><</code>, <code><=</code>, <code>></code>, <code>>=</code>)
+- Logical or Boolean (<code>!</code>, <code>||</code>, <code>&&</code>)
+- Ternary (<code>? :</code>)
 #### Expressions I
 - Declarations and Initializations (Naming Hard Rules and Conventions)
 - Operator Precedence and Parenthesis
@@ -53,11 +53,11 @@ A comprehensive library of computer science lessons - including basic and advanc
 - Strings and Characters
   - Concatenation and Formatting
   - Utilities (Is???, To???, Contains, IndexOf, Substring, Slice, Split, Join)
-  - Multi-Line or Verbatim (@, """, \\)
-  - Interpolated ($, `, f)
+  - Multi-Line or Verbatim (<code>@</code>, <code>"""</code>, <code>\\</code>)
+  - Interpolated (<code>$</code>, <code>`</code>, <code>f</code>)
 #### Control Structures I
-- Conditional Statements (if, else if, else, switch)
-- Loops (while, do-while, for, foreach)
+- Conditional Statements (<code>if</code>, <code>else if</code>, <code>else</code>, <code>switch</code>)
+- Loops (<code>while</code>, <code>do-while</code>, <code>for</code>, <code>foreach</code>, <code>for...in</code>, <code>for...of</code>)
 #### Data Structures I
 - Arrays
 - Linear Search
@@ -69,8 +69,8 @@ A comprehensive library of computer science lessons - including basic and advanc
 - Console I/O
 - String Parsing and Input Validation
 #### Documentation I
-- Line or Inline Comments (// or #)
-- Block Comments (/* ... */)
+- Line or Inline Comments (<code>//</code> or <code>#</code>)
+- Block Comments (<code>/\*</code> ... <code>\*/</code>)
 - Consistent Formatting (Indentation, Long-Lines Breaking)
 <br><br>
 ### Programming II
@@ -78,21 +78,21 @@ A comprehensive library of computer science lessons - including basic and advanc
 - Fundamentals Concepts (avoid gotos, excessive breaks / continues, and multiple returns)
 - Modularization and Code Reuse
 #### Data Types II
-- Nullable (?)
+- Nullable (<code>?</code>)
 #### Operators II
-- Optional Chaining (?)
-- Null-Coalescing (??)
-- Nullish Assignment (??=)
-- Null-Forgiving (!)
-- Index-From-End (^)
+- Optional Chaining (<code>?</code>)
+- Null-Coalescing (<code>??</code>)
+- Nullish Assignment (<code>??=</code>)
+- Null-Forgiving (<code>!</code>)
+- Index-From-End (<code>^</code>)
 #### Expressions II
-- Lambda/Arrow/Anonymous Functions (=> or ->)
+- Lambda/Arrow/Anonymous Functions (<code>=></code> or <code>-></code>)
 - Data Flow Pipelines (Filter-Map-Reduce, Pipe-and-Filter, Streams)
-- Negative Indices and Ranges ([-1], [1..4])
+- Negative Indices and Ranges (<code>[-1]</code>, [<code>1..4]</code>)
 #### Control Structures II
-- Nested Loops and Loop Control (break, continue, labels, return)
-- Exception Handling (try-catch-finally)
-- Resource Management (Using, Try-With-Resources)
+- Nested Loops and Loop Control (<code>break</code>, <code>continue</code>, <code>labels</code>, <code>return</code>)
+- Exception Handling (<code>try-catch-finally</code>)
+- Resource Management (<code>using</code>, Try-With-Resources)
 #### Data Structures II
 - Multi-Dimensional Arrays (Matrices)
 - Enums, Structs, Records, and Tuples
@@ -105,7 +105,7 @@ A comprehensive library of computer science lessons - including basic and advanc
 - File I/O
 - Absolute vs. Relative Paths
 #### Documentation II
-- Doc Comments (/** ... */)
+- Doc Comments (<code>/\*\*</code> ... <code>\*/</code>)
 - Code Readability and Style Guides
 <br><br>
 ### Programming III
@@ -113,32 +113,32 @@ A comprehensive library of computer science lessons - including basic and advanc
 - Terminology (Fields, Methods, Class/Instance Members, State, Inner Classes)
 - Fundamental Concepts (Encapsulation, Inheritance, Abstraction, Polymorphism)
 - Structure and Organization (Properties, Constructors, Destructors, Getters, Setters)
-- Common Behaviors (ToString, Equals, GetHashCode)
+- Common Behaviors (<code>ToString</code>, <code>Equals</code>, <code>GetHashCode</code>)
 - Design Patterns (Factory, Singleton, Observer)
 #### Data Types III
-- Access Modifiers (public, private, protected, default, internal, const, final, readonly, sealed, static)
-- Non-Access Modifiers (abstract, virtual, override, volatile, transient, synchronized, native)
+- Access Modifiers (<code>public</code>, <code>private</code>, <code>protected</code>, <code>default</code>, <code>internal</code>, <code>const</code>, <code>final</code>, <code>readonly</code>, <code>sealed</code>, <code>static</code>)
+- Non-Access Modifiers (<code>abstract</code>, <code>virtual</code>, <code>override</code>, <code>volatile</code>, <code>transient</code>, <code>synchronized</code>, <code>native</code>)
 - Type Systems: Static vs. Dynamic, Strong vs. Weak
 #### Operators III
-- Type Checks and Casting (instanceof, is, is not, as)
-- Bit-Wise (~, |, &, ^, <<, >>, >>>, |=, &=, ^=)
+- Type Checks and Casting (<code>instanceof</code>, <code>is</code>, <code>is not</code>, <code>as</code>)
+- Bit-Wise (<code>~</code>, <code>|</code>, <code>&</code>, <code>^</code>, <code><<</code>, <code>>></code>, <code>>>></code>, <code>|=</code>, <code>&=</code>, <code>^=</code>)
 - Overloading
-- Double Negation or Bang (!!)
-- Short-Circuiting and Pipelining (|, ||, &, &&, |>)
+- Double Negation or Bang (<code>!!</code>)
+- Short-Circuiting and Pipelining (<code>|</code>, <code>||</code>, <code>&</code>, <code>&&</code>, <code>|></code>)
 #### Expressions III
 - Generic and Templates
 - Truthy / Falsy
 - Regular Expressions (Regex)
 #### Control Structures III
 - Asynchronous Control (Promises)
-  - Async/Await
-  - Then-Catch-Finally
+  - <code>async</code>/<code>await</code>
+  - <code>then-catch-finally</code>
 #### Data Structures III
 - Classes, Abstract Classes, and Interfaces
 - Abstract Collections (Lists, Stacks, Queues, Deques, Maps, Sets)
-- Memory Management and Garbage Collection (new, finalize, delete)
+- Memory Management and Garbage Collection (<code>new</code>, <code>finalize</code>, <code>delete</code>)
 #### Functions III
-- Variadic or Variable-Length Parameters (params, ..., *args)
+- Variadic or Variable-Length Parameters (<code>params</code>, <code>...</code>, <code>*args</code>)
 - (Signature) Overloading and Default Values
 - Named Arguments
 - (Definition) Overriding
@@ -148,7 +148,7 @@ A comprehensive library of computer science lessons - including basic and advanc
 - Network I/O
 - Common Communication Protocols
 #### Documentation III
-- Annotations and Metadata (@)
+- Annotations and Metadata (<code>@</code>)
 - Version Tracking (Git/GitHub History/Log)
   - Git Commit Message Conventions
 <br><br>
@@ -165,14 +165,14 @@ A comprehensive library of computer science lessons - including basic and advanc
   - Syntax and Structure
   - Comments
   - Formatting and Style Guidelines
-  - Global Attributes (id, class, style, lang, title, data-set)
+  - Global Attributes (<code>id</code>, <code>class</code>, <code>style</code>, <code>lang</code>, <code>title</code>, <code>data-*</code>)
     - Event Hooks
-  - Document Structure (!DOCTYPE, html, head, body)
-    - Head Elements (title, meta, link, style, script, base)
-    - Body Elements (h1-h6, p, a, img, ul, ol, li, table, tr, td)
-    - Form Elements (form, label, input, select, option, button)
+  - Document Structure (<code>!DOCTYPE</code>, <code>html</code>, <code>head</code>, <code>body</code>)
+    - Head Elements (<code>title</code>, <code>meta</code>, <code>link</code>, <code>style</code>, <code>script</code>, <code>base</code>)
+    - Body Elements (<code>h1-h6</code>, <code>p</code>, <code>a</code>, <code>img</code>, <code>ul</code>, <code>ol</code>, <code>li</code>, <code>table</code>, <code>tr</code>, <code>td</code>)
+    - Form Elements (<code>form</code>, <code>label</code>, <code>input</code>, <code>select</code>, <code>option</code>, <code>button</code>)
   - Inline vs. Block Elements
-  - Generic vs. Semantic vs. Style Elements (div vs section, em vs i)
+  - Generic vs. Semantic vs. Style Elements (<code>div</code> vs <code>section</code>, <code>em</code> vs <code>i</code>)
   - Entities, Symbols, and Emojis
 - Cascade Style Sheets (CSS)
   - Terminology (Declaration, Selector, Property)
@@ -188,40 +188,40 @@ A comprehensive library of computer science lessons - including basic and advanc
   - Box Model (Content, Padding, Border, Margin/Outline)
   - Layouts (Grid, Flexbox)
   - Properties
-    - Alignment-Related (position, display, top, right, bottom, left, margin)
-    - Box-Related (Box-Sizing, Box-Shadow, Width, Height, Background, Padding, Border, Margin, Outline)
-    - Text-Related (Font, Text, Caret, Cursor)
-    - Image-Related (float, filter)
-    - List-Related (list-style)
-    - Table-Related (border-collapse, vertical-align)
-    - Render-Related (Opacity, Visibility, Overflow)
-    - Transition (duration, timing, delay)
-    - Transform (translate, scale, rotate, skew)
-    - Miscellaneous (clear, content, columns, resize, pointer-events)
+    - Alignment-Related (<code>position</code>, <code>display</code>, <code>top</code>, <code>right</code>, <code>bottom</code>, <code>left</code>, <code>margin</code>)
+    - Box-Related (<code>box-sizing</code>, <code>box-shadow</code>, <code>width</code>, <code>height</code>, <code>background</code>, <code>padding</code>, <code>border</code>, <code>margin</code>, <code>outline</code>)
+    - Text-Related (<code>font</code>, <code>text-*</code>, <code>caret</code>, <code>cursor</code>)
+    - Image-Related (<code>float</code>, <code>filter</code>)
+    - List-Related (<code>list-style-*</code>)
+    - Table-Related (<code>border-collapse</code>, <code>vertical-align</code>)
+    - Render-Related (<code>opacity</code>, <code>visibility</code>, <code>overflow</code>)
+    - Transitions and Animations (<code>transition</code>, <code>animation</code>)
+    - Transform (<code>transform</code>, <code>translate</code>, <code>scale</code>, <code>rotate</code>, <code>skew</code>)
+    - Miscellaneous (<code>clear</code>, <code>content</code>, <code>columns</code>, <code>resize</code>, <code>pointer-events</code>)
   - Custom Properties (or Variables)
     - Dynamic Theming
 - JavaScript (JS)
   - Overview of Programming
-    - Data Types (Number, NaN, String, Boolean, Array, Object, Null, Undefined)
+    - Data Types (<code>Number</code>, <code>NaN</code>, <code>String</code>, <code>Boolean</code>, <code>Array</code>, <code>Object</code>, <code>null</code>, <code>undefined</code>)
       - Type Systems: Static vs. Dynamic, Strong vs. Weak
     - Operators
-      - Optional Chaining (?)
-      - Null-Coalescing (??)
-      - Nullish Assignment (??=)
+      - Optional Chaining (<code>?</code>)
+      - Null-Coalescing (<code>??</code>)
+      - Nullish Assignment (<code>??=</code>)
     - Expressions
       - Truthy and Falsy
-      - Template Literals or Multi-Line + Interpolated Strings (`)
-      - Lambda or Arrow or Anonymous Functions (=> or ->)
-      - Data Flow Pipelines (map, filter, reduce, flat, forEach, find, findIndex, some, every, sort, reverse, group)
-      - Double Negation or Bang (!!)
-      - Short-Circuiting Pipe or Processing (||, &&)
+      - Template Literals or Multi-Line + Interpolated Strings (<code>`</code>)
+      - Lambda or Arrow or Anonymous Functions (<code>=></code> or <code>-></code>)
+      - Data Flow Pipelines (<code>map</code>, <code>filter</code>, <code>reduce</code>, <code>flat</code>, <code>forEach</code>, <code>find</code>, <code>findIndex</code>, <code>some</code>, <code>every</code>, <code>sort</code>, <code>reverse</code>, <code>group</code>)
+      - Double Negation or Bang (<code>!!</code>)
+      - Short-Circuiting Pipe or Processing (<code>||</code>, <code>&&</code>)
     - Control Structures
       - Callbacks
       - Asynchronous Control (Promises)
-        - Async/Await
-        - Then-Catch-Finally
+        - <code>async</code>/<code>await</code>
+        - <code>then-catch-finally</code>
     - Data Structures
-      - Arrays and Collections (push, pop, shift, unshift, splice, slice, includes, indexOf, join, split)
+      - Arrays and Collections (<code>push</code>, <code>pop</code>, <code>shift</code>, <code>unshift</code>, <code>splice</code>, <code>slice</code>, <code>includes</code>, <code>indexOf</code>, <code>join</code>, <code>split</code>)
       - Map and Sets
     - Functions
       - First-Class Citizens
