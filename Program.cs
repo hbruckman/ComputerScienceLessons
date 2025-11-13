@@ -207,6 +207,7 @@ class Program
 
 		// Allow explicit <br> tags coming from the source
 		escaped = Regex.Replace(escaped, @"&lt;\s*br\s*/?&gt;", "<br/>", RegexOptions.IgnoreCase);
+		escaped = ApplyBold(escaped);
 
 		// Restore code spans
 		for (int i = 0; i < codeSpans.Count; i++)
@@ -233,5 +234,17 @@ class Program
 		lower = Regex.Replace(lower, @"[^\p{L}\p{Nd}]+", "-");
 		lower = Regex.Replace(lower, @"-+", "-");
 		return lower.Trim('-');
+	}
+
+	// Converts *text* → <b>text</b> (outside of <code>…</code> spans).
+	static string ApplyBold(string s)
+	{
+		// Match a single-asterisk pair where the inside doesn't start/end with whitespace.
+		// Avoids **…** and stray asterisks.
+		return Regex.Replace(
+			s,
+			@"(?<!\*)\*(?!\s)(.+?)(?<!\s)\*(?!\*)",
+			"<b>$1</b>"
+		);
 	}
 }

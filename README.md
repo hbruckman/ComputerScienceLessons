@@ -286,6 +286,28 @@ A comprehensive library of computer science lessons - including basic and advanc
 <br><br>
 ### Full-Stack Web Development
 #### Review of Front-End and Back-End Web Development
+#### Rendering Approaches and Patterns
+- Server-Side (SSR)
+- Client-Side (CSR)
+- Hybrid
+- Isomorphic
+- Progressive Hydration
+#### Application Architectures
+- Server-Centric
+  - Multi-Page Application (MPA)
+  - Static-Site Generation (SSG)
+- Client-Centric
+  - Single-Page Application (SPA)
+  - Progressive Web Application (PWA)
+- Hybrid
+  - Isomorphic / Universal Application (SSR+CSR)
+  - Micro-Frontend: (frontend microapps instead of backend microservices)
+  - Jamstack (*J*avaScript, *A*PIs, and *M*arkup)
+  - Islands
+- Distributed or Emerging
+  - Edge-Rendered
+  - Serverless
+  - Reactive / Streaming
 #### Integration and Deployment
 - DevOps and CI/CD Fundamentals
 - Cloud Deployment and Containerization Basics
