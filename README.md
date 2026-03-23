@@ -88,7 +88,7 @@ A comprehensive library of computer science lessons - including basic and advanc
 - Null-Coalescing (<code>??</code>)
 - Nullish Assignment (<code>??=</code>)
 - Null-Forgiving (<code>!</code>)
-- Not-null Assertion (<code>!!</code>)
+- Not-Null Assertion (<code>!!</code>)
 - Index-From-End (<code>^</code>)
 #### Expressions II
 - Lambda/Arrow/Anonymous Functions (<code>=></code> or <code>-></code>)
