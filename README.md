@@ -135,7 +135,7 @@ A comprehensive library of computer science lessons - including basic and advanc
 - Truthy / Falsy
 - Regular Expressions (Regex)
 - Truthy / Falsy
-	- Short-Circuiting Value Evaluation (<<code>||</code>, <code>&&</code>)
+	- Short-Circuiting Value Evaluation (<code>||</code>, <code>&&</code>)
 	- Boolean Coersion / Double Negation / Bang (<code>!!</code>)
 - Pipelining (<code>|</code>, <code>&</code>, <code>|></code>)
 #### Control Structures III
