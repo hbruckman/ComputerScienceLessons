@@ -331,15 +331,15 @@
 							<li class="item">Type and Instance (<code>typeof</code>, <code>instanceof</code>)</li>
 							<li class="item">Rest / Spread (<code>...</code>)</li>
 						</ul>
-					</ul>
-					<li class="item">Double Negation or Bang (<code>!!</code>)</li>
-					<li class="item">Truthy / Falsy Short-Circuiting Value Evaluation (&lt;<code>||</code>, <code>&&</code>)</li>
-					<ul class="list level-3">
 						<li class="item">Expressions</li>
 						<ul class="list level-4">
 							<li class="item">Dynamic Property Access (<code>obj.propName</code> or <code>obj[propName]</code>)</li>
 							<li class="item">Dynamic Code Execution (<code>eval()</code>)</li>
-							<li class="item">Truthy / Falsy / Boolean Coersion</li>
+							<li class="item">Truthy / Falsy</li>
+							<ul class="list level-5">
+								<li class="item">Short-Circuiting Value Evaluation (<code>||</code>, <code>&&</code>)</li>
+								<li class="item">Boolean Coersion / Double Negation / Bang (<code>!!</code>)</li>
+							</ul>
 							<li class="item">Destructuring Assignment</li>
 							<ul class="list level-5">
 								<li class="item">Object Unpacking (<code>const {name, email} = contact;</code>)</li>

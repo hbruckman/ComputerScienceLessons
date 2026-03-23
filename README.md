@@ -223,12 +223,12 @@ A comprehensive library of computer science lessons - including basic and advanc
       - Loose vs. Strict Equality (<code>==</code> vs. <code>===</code>)
       - Type and Instance (<code>typeof</code>, <code>instanceof</code>)
       - Rest / Spread (<code>...</code>)
-			- Double Negation or Bang (<code>!!</code>)
-			- Truthy / Falsy Short-Circuiting Value Evaluation (<<code>||</code>, <code>&&</code>)
     - Expressions
       - Dynamic Property Access (<code>obj.propName</code> or <code>obj[propName]</code>)
       - Dynamic Code Execution (<code>eval()</code>)
-      - Truthy / Falsy / Boolean Coersion
+      - Truthy / Falsy
+        - Short-Circuiting Value Evaluation (<code>||</code>, <code>&&</code>)
+        - Boolean Coersion / Double Negation / Bang (<code>!!</code>)
       - Destructuring Assignment
         - Object Unpacking (<code>const {name, email} = contact;</code>)
         - Array Unpacking (<code>const [first, second] = numbers;</code>)
