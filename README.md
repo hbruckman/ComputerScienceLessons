@@ -66,7 +66,7 @@ A comprehensive library of computer science lessons - including basic and advanc
 - Return Type
 #### Input/Output I
 - Console I/O
-- String Parsing, Formatting, and Input Validation
+- String Parsing, Formatting and Input Validation
   - Utilities (Is???, To???, Contains, IndexOf, Substring, Slice, Split, Join)
 #### Documentation I
 - Line or Inline Comments (<code>//</code> or <code>#</code>)
@@ -75,15 +75,20 @@ A comprehensive library of computer science lessons - including basic and advanc
 <br><br>
 ### Programming II
 #### Structured Programming
-- Fundamentals Concepts (avoid gotos, excessive breaks / continues, and multiple returns)
+- Fundamentals Concepts
+  - Spaghetti Code (i.e., avoid gotos and other unstructured jumps)
+	- Early Exit (i.e., handle edge cases upfront; reduces nesting and improves readability)
 - Modularization and Code Reuse
+- Defensive / Offensive Programming
 #### Data Types II
 - Nullable (<code>?</code>)
 #### Operators II
 - Optional Chaining (<code>?</code>)
+- Null-Conditional (<code>?.</code>)
 - Null-Coalescing (<code>??</code>)
 - Nullish Assignment (<code>??=</code>)
 - Null-Forgiving (<code>!</code>)
+- Not-null Assertion (<code>!!</code>)
 - Index-From-End (<code>^</code>)
 #### Expressions II
 - Lambda/Arrow/Anonymous Functions (<code>=></code> or <code>-></code>)
