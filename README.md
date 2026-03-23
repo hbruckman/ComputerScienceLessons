@@ -56,6 +56,7 @@ A comprehensive library of computer science lessons - including basic and advanc
   - Interpolated (<code>$</code>, <code>`</code>, <code>f</code>)
 #### Control Structures I
 - Conditional Statements (<code>if</code>, <code>else if</code>, <code>else</code>, <code>switch</code>)
+	- Short-Circuiting (<code>||</code>, <code>&&</code>)
 - Loops (<code>while</code>, <code>do-while</code>, <code>for</code>, <code>foreach</code>, <code>for...in</code>, <code>for...of</code>)
 #### Data Structures I
 - Arrays
@@ -129,12 +130,14 @@ A comprehensive library of computer science lessons - including basic and advanc
 - Type Checks and Casting (<code>instanceof</code>, <code>is</code>, <code>is not</code>, <code>as</code>)
 - Bit-Wise (<code>~</code>, <code>|</code>, <code>&</code>, <code>^</code>, <code><<</code>, <code>>></code>, <code>>>></code>, <code>|=</code>, <code>&=</code>, <code>^=</code>)
 - Overloading
-- Double Negation or Bang (<code>!!</code>)
-- Short-Circuiting and Pipelining (<code>|</code>, <code>||</code>, <code>&</code>, <code>&&</code>, <code>|></code>)
 #### Expressions III
 - Generic and Templates
 - Truthy / Falsy
 - Regular Expressions (Regex)
+- Truthy / Falsy
+	- Short-Circuiting Value Evaluation (<<code>||</code>, <code>&&</code>)
+	- Boolean Coersion / Double Negation / Bang (<code>!!</code>)
+- Pipelining (<code>|</code>, <code>&</code>, <code>|></code>)
 #### Control Structures III
 - Asynchronous Control (Promises)
   - <code>async</code>/<code>await</code>
@@ -221,10 +224,12 @@ A comprehensive library of computer science lessons - including basic and advanc
       - Loose vs. Strict Equality (<code>==</code> vs. <code>===</code>)
       - Type and Instance (<code>typeof</code>, <code>instanceof</code>)
       - Rest / Spread (<code>...</code>)
+			- Double Negation or Bang (<code>!!</code>)
+			- Truthy / Falsy Short-Circuiting Value Evaluation (<<code>||</code>, <code>&&</code>)
     - Expressions
       - Dynamic Property Access (<code>obj.propName</code> or <code>obj[propName]</code>)
       - Dynamic Code Execution (<code>eval()</code>)
-      - Truthy / Falsy
+      - Truthy / Falsy / Boolean Coersion
       - Destructuring Assignment
         - Object Unpacking (<code>const {name, email} = contact;</code>)
         - Array Unpacking (<code>const [first, second] = numbers;</code>)

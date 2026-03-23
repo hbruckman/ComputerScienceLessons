@@ -80,6 +80,7 @@
 			<h4 class="heading h4" id="control-structures-i">Control Structures I</h4>
 			<ul class="list level-1">
 				<li class="item">Conditional Statements (<code>if</code>, <code>else if</code>, <code>else</code>, <code>switch</code>)</li>
+				<li class="item">Short-Circuiting (<code>||</code>, <code>&&</code>)</li>
 				<li class="item">Loops (<code>while</code>, <code>do-while</code>, <code>for</code>, <code>foreach</code>, <code>for...in</code>, <code>for...of</code>)</li>
 			</ul>
 			<h4 class="heading h4" id="data-structures-i">Data Structures I</h4>
@@ -130,7 +131,7 @@
 				<li class="item">Null-Coalescing (<code>??</code>)</li>
 				<li class="item">Nullish Assignment (<code>??=</code>)</li>
 				<li class="item">Null-Forgiving (<code>!</code>)</li>
-				<li class="item">Not-null Assertion (<code>!!</code>)</li>
+				<li class="item">Not-Null Assertion (<code>!!</code>)</li>
 				<li class="item">Index-From-End (<code>^</code>)</li>
 			</ul>
 			<h4 class="heading h4" id="expressions-ii">Expressions II</h4>
@@ -191,14 +192,16 @@
 				<li class="item">Type Checks and Casting (<code>instanceof</code>, <code>is</code>, <code>is not</code>, <code>as</code>)</li>
 				<li class="item">Bit-Wise (<code>~</code>, <code>|</code>, <code>&</code>, <code>^</code>, <code><<</code>, <code>>></code>, <code>>>></code>, <code>|=</code>, <code>&=</code>, <code>^=</code>)</li>
 				<li class="item">Overloading</li>
-				<li class="item">Double Negation or Bang (<code>!!</code>)</li>
-				<li class="item">Short-Circuiting and Pipelining (<code>|</code>, <code>||</code>, <code>&</code>, <code>&&</code>, <code>|></code>)</li>
 			</ul>
 			<h4 class="heading h4" id="expressions-iii">Expressions III</h4>
 			<ul class="list level-1">
 				<li class="item">Generic and Templates</li>
 				<li class="item">Truthy / Falsy</li>
 				<li class="item">Regular Expressions (Regex)</li>
+				<li class="item">Truthy / Falsy</li>
+				<li class="item">Short-Circuiting Value Evaluation (&lt;<code>||</code>, <code>&&</code>)</li>
+				<li class="item">Boolean Coersion / Double Negation / Bang (<code>!!</code>)</li>
+				<li class="item">Pipelining (<code>|</code>, <code>&</code>, <code>|></code>)</li>
 			</ul>
 			<h4 class="heading h4" id="control-structures-iii">Control Structures III</h4>
 			<ul class="list level-1">
@@ -325,11 +328,15 @@
 							<li class="item">Type and Instance (<code>typeof</code>, <code>instanceof</code>)</li>
 							<li class="item">Rest / Spread (<code>...</code>)</li>
 						</ul>
+					</ul>
+					<li class="item">Double Negation or Bang (<code>!!</code>)</li>
+					<li class="item">Truthy / Falsy Short-Circuiting Value Evaluation (&lt;<code>||</code>, <code>&&</code>)</li>
+					<ul class="list level-3">
 						<li class="item">Expressions</li>
 						<ul class="list level-4">
 							<li class="item">Dynamic Property Access (<code>obj.propName</code> or <code>obj[propName]</code>)</li>
 							<li class="item">Dynamic Code Execution (<code>eval()</code>)</li>
-							<li class="item">Truthy / Falsy</li>
+							<li class="item">Truthy / Falsy / Boolean Coersion</li>
 							<li class="item">Destructuring Assignment</li>
 							<ul class="list level-5">
 								<li class="item">Object Unpacking (<code>const {name, email} = contact;</code>)</li>
