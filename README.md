@@ -51,8 +51,7 @@ A comprehensive library of computer science lessons - including basic and advanc
 - Type Conversion (Implicit / Explicit, Truncation, Promotion, Casting, Parsing)
 - Overflow, Precision Loss, Division By Zero
 - Strings and Characters
-  - Concatenation and Formatting
-  - Utilities (Is???, To???, Contains, IndexOf, Substring, Slice, Split, Join)
+  - Concatenation
   - Multi-Line or Verbatim (<code>@</code>, <code>"""</code>, <code>\\</code>)
   - Interpolated (<code>$</code>, <code>`</code>, <code>f</code>)
 #### Control Structures I
@@ -67,7 +66,8 @@ A comprehensive library of computer science lessons - including basic and advanc
 - Return Type
 #### Input/Output I
 - Console I/O
-- String Parsing and Input Validation
+- String Parsing, Formatting, and Input Validation
+  - Utilities (Is???, To???, Contains, IndexOf, Substring, Slice, Split, Join)
 #### Documentation I
 - Line or Inline Comments (<code>//</code> or <code>#</code>)
 - Block Comments (<code>/* ... */</code>)
@@ -107,6 +107,7 @@ A comprehensive library of computer science lessons - including basic and advanc
 #### Documentation II
 - Doc Comments (<code>/** ... */</code>)
 - Code Readability and Style Guides
+  - Formatters and Linters
 <br><br>
 ### Programming III
 #### Object-Oriented Programming (OOP)
