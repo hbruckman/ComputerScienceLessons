@@ -56,7 +56,7 @@ A comprehensive library of computer science lessons - including basic and advanc
   - Interpolated (<code>$</code>, <code>`</code>, <code>f</code>)
 #### Control Structures I
 - Conditional Statements (<code>if</code>, <code>else if</code>, <code>else</code>, <code>switch</code>)
-	- Short-Circuiting (<code>||</code>, <code>&&</code>)
+  - Short-Circuiting (<code>||</code>, <code>&&</code>)
 - Loops (<code>while</code>, <code>do-while</code>, <code>for</code>, <code>foreach</code>, <code>for...in</code>, <code>for...of</code>)
 #### Data Structures I
 - Arrays
@@ -78,7 +78,7 @@ A comprehensive library of computer science lessons - including basic and advanc
 #### Structured Programming
 - Fundamentals Concepts
   - Spaghetti Code (i.e., avoid gotos and other unstructured jumps)
-	- Early Exit (i.e., handle edge cases upfront; reduces nesting and improves readability)
+  - Early Exit (i.e., handle edge cases upfront; reduces nesting and improves readability)
 - Modularization and Code Reuse
 - Defensive / Offensive Programming
 #### Data Types II
@@ -132,11 +132,10 @@ A comprehensive library of computer science lessons - including basic and advanc
 - Overloading
 #### Expressions III
 - Generic and Templates
-- Truthy / Falsy
 - Regular Expressions (Regex)
 - Truthy / Falsy
-	- Short-Circuiting Value Evaluation (<code>||</code>, <code>&&</code>)
-	- Boolean Coersion / Double Negation / Bang (<code>!!</code>)
+  - Short-Circuiting Value Evaluation (<code>||</code>, <code>&&</code>)
+  - Boolean Coersion / Double Negation / Bang (<code>!!</code>)
 - Pipelining (<code>|</code>, <code>&</code>, <code>|></code>)
 #### Control Structures III
 - Asynchronous Control (Promises)
